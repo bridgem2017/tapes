@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>제품 등록 관리 | Tape Solution</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/admin.css" />
+</head>
+<body class="subPage adminPage">
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="logo">TS</span><span><b>Tape</b> Solution</span></a>
+  <span class="adminTag">제품 관리</span>
+  <div class="adminTop"><span id="modeBadge" class="modeBadge"></span><a class="btn light sm" href="index.html">사이트 보기</a><button class="btn ghost sm" id="logoutBtn" hidden>로그아웃</button></div>
+</header>
+
+<main class="adminMain">
+  <!-- 로그인 -->
+  <section id="loginView" class="adminLogin" hidden>
+    <div class="loginCard">
+      <p class="eyebrow">ADMIN</p>
+      <h1>제품 등록 관리</h1>
+      <p class="muted">관리자 비밀번호를 입력하세요.</p>
+      <form id="loginForm"><input type="password" id="loginPw" placeholder="비밀번호" autocomplete="current-password" required><button class="btn primary" type="submit">로그인</button></form>
+      <p class="loginErr" id="loginErr"></p>
+    </div>
+  </section>
+
+  <!-- 목록 -->
+  <section id="listView" hidden>
+    <div class="adminHead">
+      <div><p class="eyebrow">PRODUCT DATABASE</p><h1>제품 등록 관리</h1><p class="muted" id="statLine"></p></div>
+      <div class="adminActions">
+        <button class="btn light" id="csvBtn">엑셀(CSV) 일괄 등록</button>
+        <button class="btn primary" id="newBtn">+ 새 제품 등록</button>
+      </div>
+    </div>
+
+    <div class="draftBar" id="draftBar" hidden>
+      <div><b>저장되지 않은 변경 <span id="draftCount">0</span>건</b><p>이 브라우저에만 임시 저장되어 있습니다. <b>products.js 내려받기</b> 후 사이트의 <code>assets/products.js</code> 파일을 교체해 업로드해야 홈페이지에 반영됩니다.</p></div>
+      <div class="draftBtns"><button class="btn primary" id="exportBtn">products.js 내려받기</button><button class="btn ghost" id="discardBtn">변경 취소</button></div>
+    </div>
+
+    <div class="adminToolbar">
+      <input id="q" placeholder="품번, 제품명, 용도 검색">
+      <select id="fBrand"><option value="">전체 브랜드</option></select>
+      <select id="fCat"><option value="">전체 제품군</option></select>
+      <select id="fState"><option value="">전체</option><option value="new">이번에 추가·수정한 제품</option><option value="hidden">사이트 미노출</option><option value="noimg">이미지 없음</option></select>
+    </div>
+
+    <div class="adminTableWrap"><table class="adminTable"><thead><tr><th></th><th>브랜드</th><th>품번</th><th>제품명</th><th>제품군</th><th>두께</th><th>사이트</th><th></th></tr></thead><tbody id="rows"></tbody></table></div>
+    <p class="emptyMsg" id="emptyMsg" hidden>조건에 맞는 제품이 없습니다.</p>
+  </section>
+</main>
+
+<!-- 등록/수정 폼 -->
+<div class="adminModal" id="formModal" aria-hidden="true">
+  <form class="adminSheet" id="pForm" novalidate>
+    <div class="sheetHead"><h2 id="formTitle">새 제품 등록</h2><button type="button" class="sheetX" data-close aria-label="닫기">×</button></div>
+    <div class="sheetBody">
+      <div class="fGrid">
+        <label>브랜드 <em>*</em><input name="brand" list="dlBrand" placeholder="예: 3M, tesa, Nitto, ARCHE"></label>
+        <label>품번 <em>*</em><input name="code" placeholder="예: 4421"></label>
+        <label class="full">제품명 <em>*</em><input name="name" placeholder="예: 3M™ PE 폼 양면테이프 4421"></label>
+        <label>제품군 <em>*</em><input name="category" list="dlCat" placeholder="예: Foam Tape"></label>
+        <label>점착제<input name="adhesive" list="dlAdh" placeholder="예: Acrylic"></label>
+        <label>기재·형태<input name="carrier" placeholder="예: PE 폼 · 흰색"></label>
+        <label>두께<input name="thickness" placeholder="예: 1.0mm"></label>
+        <label class="full">사용 환경(온도)<input name="temp" placeholder="예: 장기 65°C / 단기 80°C"></label>
+        <label class="full">추천 용도 <small>쉼표(,)로 구분</small><textarea name="applications" rows="2" placeholder="예: 사인물 부착, 거울 고정, 패널 고정"></textarea></label>
+        <label class="full">적용 소재 <small>쉼표(,)로 구분</small><textarea name="substrates" rows="2" placeholder="예: 금속, ABS, 유리"></textarea></label>
+        <label class="full">산업 <small>쉼표(,)로 구분</small><input name="industries" placeholder="예: Automotive, Electronics"></label>
+        <label class="full">대체 후보 <small>쉼표(,)로 구분</small><input name="alternatives" placeholder="예: 3M 4492W, tesa 62934"></label>
+        <label>기술자료 이름<input name="source" placeholder="예: 3M TDS 4421"></label>
+        <label>기술자료 링크<input name="sourceUrl" type="url" placeholder="https://"></label>
+      </div>
+
+      <div class="imgBox">
+        <div class="imgPreview" id="imgPreview"><span>이미지 없음</span></div>
+        <div class="imgCtl">
+          <b>제품 이미지</b>
+          <label class="fileBtn btn light sm">이미지 파일 선택<input type="file" id="imgFile" accept="image/*" hidden></label>
+          <input name="img" id="imgUrl" placeholder="또는 이미지 주소(URL) 붙여넣기">
+          <button type="button" class="linkBtn" id="imgClear">이미지 삭제</button>
+          <small class="muted" id="imgHint">JPG·PNG 파일은 자동으로 가로 900px로 줄여 저장합니다.</small>
+        </div>
+      </div>
+
+      <p class="visNote" id="visNote"></p>
+      <p class="formErr" id="formErr"></p>
+    </div>
+    <div class="sheetFoot">
+      <button type="button" class="btn ghost danger" id="delBtn" hidden>삭제</button>
+      <span class="spacer"></span>
+      <button type="button" class="btn light" data-close>취소</button>
+      <button type="submit" class="btn primary" id="saveBtn">저장</button>
+    </div>
+  </form>
+</div>
+
+<!-- CSV 일괄 등록 -->
+<div class="adminModal" id="csvModal" aria-hidden="true">
+  <div class="adminSheet">
+    <div class="sheetHead"><h2>엑셀(CSV) 일괄 등록</h2><button type="button" class="sheetX" data-close aria-label="닫기">×</button></div>
+    <div class="sheetBody">
+      <ol class="csvSteps">
+        <li><button type="button" class="linkBtn" id="tplBtn">양식(CSV) 내려받기</button> 후 엑셀에서 제품을 한 줄에 하나씩 입력합니다.</li>
+        <li>여러 값(용도·소재·산업·대체 후보)은 칸 안에서 쉼표로 구분합니다.</li>
+        <li>엑셀에서 <b>CSV UTF-8(쉼표로 분리)</b> 형식으로 저장한 뒤 아래에서 선택합니다.</li>
+      </ol>
+      <label class="fileDrop"><input type="file" id="csvFile" accept=".csv,text/csv"><span>CSV 파일 선택</span></label>
+      <div id="csvResult"></div>
+    </div>
+    <div class="sheetFoot"><span class="spacer"></span><button type="button" class="btn light" data-close>닫기</button><button type="button" class="btn primary" id="csvApply" disabled>등록하기</button></div>
+  </div>
+</div>
+
+<datalist id="dlBrand"></datalist><datalist id="dlCat"></datalist><datalist id="dlAdh"></datalist>
+<div class="toast" id="toast"></div>
+
+<script src="assets/products.js"></script>
+<script src="assets/admin.js"></script>
+</body>
+</html>

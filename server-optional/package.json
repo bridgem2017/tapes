@@ -1,0 +1,7 @@
+{
+  "name": "tape-solution-server",
+  "private": true,
+  "description": "Tape Solution 사이트 + 제품 등록 API (추가 설치 없음)",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

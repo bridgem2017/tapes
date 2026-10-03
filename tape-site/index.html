@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tape Solution v10 | 산업용 테이프 기술영업 플랫폼</title>
+  <meta name="description" content="기술상담부터 제품 추천, 샘플 테스트, 견적과 주문까지 연결하는 산업용 테이프 기술영업 플랫폼" />
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="logo">TS</span><span><b>Tape</b> Solution</span></a>
+  <button class="mobile" id="mobileBtn" aria-label="메뉴 열기">☰</button>
+  <nav id="nav">
+    <a href="#consult">기술상담</a><a href="#applications">적용사례</a><a href="#finder">제품추천</a><a href="#products">테이프 제품</a><a href="#sample">상담 문의</a><a href="#order">견적·주문</a><a href="#data">기술자료</a>
+  </nav>
+  <button class="basketBtn" id="basketBtn">주문목록 <b id="basketCount">0</b></button>
+</header>
+
+<main>
+<section id="home" class="hero photoHero">
+  <div class="heroOverlay"></div>
+  <div class="heroText">
+    <p class="eyebrow light">B2B TAPE TECHNICAL SALES</p>
+    <h1>테이프를 고르는 일부터<br><em>실제 주문까지</em> 연결합니다.</h1>
+    <p class="lead">붙일 소재, 사용환경, 필요한 성능을 알려주면 공급 가능한 테이프를 중심으로 후보를 추천하고 샘플 테스트와 견적·주문까지 이어집니다.</p>
+    <div class="ctaRow"><a class="btn primary" href="#consult">기술상담 시작</a><a class="btn glass" href="#products">테이프 제품 보기</a></div>
+    <div class="trustRow"><span>✓ 산업용 양면테이프</span><span>✓ 기능성 테이프</span><span>✓ 가공·규격 상담</span></div>
+  </div>
+  <div class="heroProof">
+    <div class="proofLabel">추천 결과 예시</div><h3>금속 + ABS 접착</h3><p>고점착 · 실내용 · 얇은 두께</p>
+    <div class="proofPhotos">
+      <figure><img src="https://images.unsplash.com/photo-1761105439888-86c6e50d7af8?auto=format&fit=crop&w=700&q=85" alt="브러시드 금속 표면"><figcaption>금속 표면</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1782671988047-0d1064a1ebcd?auto=format&fit=crop&w=700&q=85" alt="전자기기 내부 부품"><figcaption>정밀 부착</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1774638900399-e5fcec47e4d5?auto=format&fit=crop&w=700&q=85" alt="재료 시험기"><figcaption>샘플 테스트</figcaption></figure>
+    </div>
+    <div class="proofSteps"><span><b>01</b> 후보 선정</span><span><b>02</b> 샘플 테스트</span></div>
+  </div>
+</section>
+
+<section class="quickEntry">
+  <div class="quickIntro"><span>빠른 제품 탐색</span><b>제품번호를 몰라도 조건만 선택하면 됩니다.</b></div>
+  <div class="quickLinks">
+    <a href="#consult"><small>01</small><strong>소재 조합으로 찾기</strong><em>ABS·금속·유리·필름</em></a>
+    <a href="#finder"><small>02</small><strong>성능으로 찾기</strong><em>내열·방수·절연·방열</em></a>
+    <a href="#applications"><small>03</small><strong>적용 사례로 찾기</strong><em>자동차·전자·배터리·사인</em></a>
+    <a href="#sample"><small>04</small><strong>샘플 테스트 요청</strong><em>제품 미확정 상태도 가능</em></a>
+  </div>
+</section>
+
+<section class="funnel photoFunnel">
+  <div class="funnelIntro"><p class="eyebrow">TECHNICAL SALES FLOW</p><h2>상담이 주문으로 이어지는 4단계</h2><p>제품을 먼저 고르는 것이 아니라, 현장의 조건을 먼저 확인합니다.</p></div>
+  <div class="steps">
+    <article><img src="https://images.unsplash.com/photo-1769147339214-076740872485?auto=format&fit=crop&w=700&q=80" alt="기술 도면 검토"><span>01</span><b>기술상담</b><p>소재·환경·규격·사용량 확인</p></article>
+    <article><img src="https://images.unsplash.com/photo-1700085663963-bbe0f7789b4a?auto=format&fit=crop&w=700&q=80" alt="다양한 테이프 롤"><span>02</span><b>제품추천</b><p>판매 제품 중심 후보 비교</p></article>
+    <article><img src="https://images.unsplash.com/photo-1602052577122-f73b9710adba?auto=format&fit=crop&w=700&q=80" alt="시험 장비"><span>03</span><b>샘플 테스트</b><p>실사용 조건에 맞춘 검증</p></article>
+    <article><img src="https://images.unsplash.com/photo-1644079446600-219068676743?auto=format&fit=crop&w=700&q=80" alt="물류 창고"><span>04</span><b>견적·주문</b><p>규격·수량·납기 확인 후 발주</p></article>
+  </div>
+</section>
+
+<section id="consult" class="section consultSec">
+  <div class="sectionHead"><p class="eyebrow">01 TECHNICAL CONSULTING</p><h2>무엇을 붙이려고 하시나요?</h2><p>복잡한 품번 대신 실제 사용조건을 입력하세요.</p></div>
+  <div class="consultGrid">
+    <form class="wizard" id="consultForm">
+      <div class="consultStatus"><span>현재 입력 조건</span><b id="consultSummary">소재와 사용환경을 선택해주세요.</b></div>
+      <div class="wizardProgress"><span class="active">소재</span><span>환경</span><span>성능</span><span>규격</span></div>
+      <div class="formGrid two"><label>첫 번째 소재<select id="materialA"><option value="">선택</option></select></label><label>두 번째 소재<select id="materialB"><option value="">선택</option></select></label></div>
+      <div class="choiceBlock"><b>사용환경</b><div class="chips" data-name="environment"><button type="button">실내</button><button type="button">실외</button><button type="button">고온</button><button type="button">저온</button><button type="button">습기·방수</button><button type="button">진동·충격</button></div></div>
+      <div class="choiceBlock"><b>필요한 성능</b><div class="chips multi" data-name="performance"><button type="button">고점착</button><button type="button">얇은 두께</button><button type="button">재작업성</button><button type="button">내열</button><button type="button">절연</button><button type="button">방열</button><button type="button">마스킹</button><button type="button">표면보호</button></div></div>
+      <div class="formGrid three"><label>희망 폭<input id="wishWidth" placeholder="예: 20mm"></label><label>희망 길이<input id="wishLength" placeholder="예: 50m"></label><label>예상 수량<input id="wishQty" placeholder="예: 월 100롤"></label></div>
+      <div class="consultActions"><button class="btn primary full" type="submit">조건에 맞는 테이프 추천받기</button><button class="btn light full" type="button" id="saveConsult">상담 조건 저장</button></div>
+    </form>
+    <aside class="consultAside photoAside"><img src="https://images.unsplash.com/photo-1603901622056-0a5bee231395?auto=format&fit=crop&w=1100&q=85" alt="기술 도면과 제도 도구"><div class="asideCopy"><p class="eyebrow light">현장 조건 중심 상담</p><h3>제품 하나보다<br>사용조건 전체를 봅니다.</h3><ul><li>피착재의 표면에너지와 상태</li><li>온도·습도·옥외 노출 조건</li><li>필요 두께와 가공 규격</li><li>초기점착과 장기접착 요구</li></ul></div></aside>
+  </div>
+</section>
+
+<section class="industryGallery">
+  <div class="sectionHead centered"><p class="eyebrow">REAL APPLICATION AREAS</p><h2>산업별 현장과 적용 부위를 기준으로 찾습니다.</h2></div>
+  <div class="galleryGrid">
+    <a href="#finder" class="galleryCard"><img src="https://images.unsplash.com/photo-1777642328916-d96fc156f32b?auto=format&fit=crop&w=900&q=85" alt="자동차 생산 라인"><span>자동차</span><small>내장재·하네스·부품 고정</small></a>
+    <a href="#finder" class="galleryCard"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=85" alt="전자 회로"><span>전자·PCB</span><small>절연·방열·정밀 부착</small></a>
+    <a href="#finder" class="galleryCard"><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=85" alt="태양광 설비"><span>에너지</span><small>내후성·실링·고정</small></a>
+    <a href="#finder" class="galleryCard"><img src="https://images.unsplash.com/photo-1740209475472-aa7d280f7452?auto=format&fit=crop&w=900&q=85" alt="산업 가공 설비"><span>산업기기</span><small>조립·진동·충격 대응</small></a>
+  </div>
+</section>
+
+
+<section id="applications" class="section applicationLibrary">
+  <div class="sectionHead rowHead">
+    <div><p class="eyebrow">02 APPLICATION LIBRARY</p><h2>실제 산업 현장과 적용 부위로 찾습니다.</h2><p>제품번호를 몰라도 사진과 적용부위를 선택하면 관련 테이프와 상담 항목을 확인할 수 있습니다.</p></div>
+    <a class="btn ghost" href="#consult">내 조건으로 상담하기</a>
+  </div>
+  <div class="applicationTabs" id="applicationTabs">
+    <button class="active" data-industry="전체">전체</button><button data-industry="자동차">자동차</button><button data-industry="전자">전자·디스플레이</button><button data-industry="배터리">배터리·에너지</button><button data-industry="산업">산업기기</button><button data-industry="사인">사인·명판</button><button data-industry="포장">포장</button>
+  </div>
+  <div id="applicationGrid" class="applicationGrid"></div>
+  <div class="caseGuide">
+    <div><small>CASE FINDER</small><strong>사진을 클릭하면 사용 소재, 필요한 성능, 추천 제품군과 샘플 요청까지 한 화면에서 확인할 수 있습니다.</strong></div>
+    <a href="#sample">제품 미확정 상태로 샘플 요청 →</a>
+  </div>
+</section>
+
+<section id="finder" class="section finderSec">
+  <div class="sectionHead rowHead"><div><p class="eyebrow">02 PRODUCT RECOMMENDATION</p><h2>판매 제품 중심으로 추천</h2><p>실제 취급·공급하는 테이프 제품을 중심으로 비교합니다.</p></div><button class="btn ghost" id="compareBtn">선택 제품 비교</button></div>
+  <div class="finderGrid">
+    <div class="filterPanel"><label>테이프 종류<select id="categoryFilter"><option value="">전체</option></select></label><label>산업<select id="industryFilter"><option value="">전체</option></select></label><label>용도<select id="applicationFilter"><option value="">전체</option></select></label><label>피착재<select id="substrateFilter"><option value="">전체</option></select></label><label>점착제<select id="adhesiveFilter"><option value="">전체</option></select></label><label>브랜드<select id="brandFilter"><option value="">전체</option></select></label><label>검색어·품번<input id="keywordFilter" placeholder="품번, 용도, 소재 검색"></label><button class="btn primary full" id="runFinder">제품 찾기</button><button class="btn light full" id="resetFinder">검색 초기화</button></div>
+    <div><div class="recommendSummary" id="recommendSummary"><div><small>추천 기준</small><b>전체 판매 제품</b></div><p>상담 조건을 입력하면 제품별 적합도와 추천 이유가 표시됩니다.</p></div><div class="resultBar"><span><b id="resultCount">0</b>개 추천 후보</span><span class="muted">상세페이지에서 샘플·견적·주문 요청</span></div><div id="productResults" class="cards"></div></div>
+  </div>
+</section>
+
+<section id="products" class="section productShowcase">
+  <div class="sectionHead"><p class="eyebrow">03 TAPE PRODUCTS</p><h2>주요 테이프 제품군</h2><p>실제 판매로 연결할 테이프 제품군을 중심으로 구성했습니다.</p></div>
+  <div class="categoryTiles" id="categoryTiles"></div><div class="tabs" id="brandTabs"></div><div id="dbList" class="tableWrap"></div>
+</section>
+
+<section id="cases" class="section casesSec advancedCases">
+  <div class="sectionHead"><p class="eyebrow">APPLICATION METHOD</p><h2>사진만 보여주는 것이 아니라, 선정 근거까지 설명합니다.</h2><p>각 적용사례는 사용부위·소재·환경·필요 성능·추천 제품군을 연결해 기술상담으로 이어집니다.</p></div>
+  <div class="caseMethodGrid">
+    <article><span>01</span><b>사용부위 확인</b><p>어디에 부착되는지와 조립 공정을 먼저 확인합니다.</p></article>
+    <article><span>02</span><b>피착재 확인</b><p>ABS, 금속, 유리, 필름 등 실제 접착 소재를 구분합니다.</p></article>
+    <article><span>03</span><b>환경 조건 확인</b><p>실내외, 온도, 습기, 진동, 재작업 필요성을 검토합니다.</p></article>
+    <article><span>04</span><b>샘플 테스트</b><p>후보 제품을 실제 현장 조건에서 확인한 뒤 견적으로 연결합니다.</p></article>
+  </div>
+</section>
+
+<section class="proofSec section">
+  <div class="sectionHead centered"><p class="eyebrow">TECHNICAL SALES SUPPORT</p><h2>제품 판매보다 먼저, 적용 가능성을 검토합니다.</h2><p>현장조건 확인과 샘플 검증을 통해 불필요한 시행착오를 줄이는 기술영업 방식입니다.</p></div>
+  <div class="proofGrid">
+    <article><img src="https://images.unsplash.com/photo-1763076470404-23554ef26747?auto=format&fit=crop&w=900&q=85" alt="소재 샘플"><div><strong>피착재 검토</strong><p>표면상태, 곡률, 오염 가능성과 표면에너지를 함께 확인합니다.</p></div></article>
+    <article><img src="https://images.unsplash.com/photo-1563448448467-7fc866d214bb?auto=format&fit=crop&w=900&q=85" alt="측정 도구"><div><strong>샘플 평가</strong><p>실제 사용조건과 유사한 방식으로 부착성과 작업성을 확인합니다.</p></div></article>
+    <article><img src="https://images.unsplash.com/photo-1515697203610-d0513edf9cb4?auto=format&fit=crop&w=900&q=85" alt="롤 형태 원단"><div><strong>규격·가공 협의</strong><p>폭, 길이, 시트, 롤, 형상 등 필요한 납품 형태를 상담합니다.</p></div></article>
+  </div>
+</section>
+
+<section id="sample" class="section split sampleSec">
+  <div class="sampleCopy"><h2>상담 문의를 남겨주시면 빠르게 안내드립니다.</h2><p>제품이 확정되지 않아도 상담 가능합니다. 현 사용 품번과 피착재, 희망 규격을 남기면 추천 제품과 테스트 방향을 안내합니다.</p><img class="samplePhoto" src="https://images.unsplash.com/photo-1789309917168-9f55a7552a66?auto=format&fit=crop&w=1100&q=85" alt="테이프 롤"></div>
+  <form class="form" id="sampleForm"><div class="formGrid two"><input required name="company" placeholder="회사명"><input required name="name" placeholder="담당자명"></div><div class="formGrid two"><input required name="phone" placeholder="연락처"><input name="email" placeholder="이메일"></div><input name="current" placeholder="현재 사용제품 또는 관심 품번"><input name="material" placeholder="붙일 소재 예: ABS + 알루미늄"><div class="formGrid two"><input name="size" placeholder="희망 샘플 규격"><input name="quantity" placeholder="예상 사용량"></div><textarea name="memo" placeholder="사용환경, 기존 문제점, 필요한 성능을 입력하세요."></textarea><label class="agree"><input type="checkbox" required> 상담을 위한 개인정보 수집 및 이용에 동의합니다.</label><button class="btn primary full" type="submit">샘플·기술상담 요청</button></form>
+</section>
+
+<section id="order" class="section orderSec"><div class="sectionHead"><p class="eyebrow">06 QUOTE & ORDER</p><h2>선택한 제품으로 견적·주문 요청</h2><p>가격과 납기는 제품·규격·수량에 따라 확인하는 B2B 방식입니다.</p></div><div class="orderGrid"><div class="orderList" id="orderList"><div class="emptyOrder"><b>주문목록이 비어 있습니다.</b><p>제품 카드에서 ‘견적·주문 담기’를 눌러주세요.</p></div></div><form class="form orderForm" id="orderForm"><h3>구매 담당자 정보</h3><input required name="company" placeholder="회사명"><div class="formGrid two"><input required name="name" placeholder="담당자명"><input required name="phone" placeholder="연락처"></div><input name="email" type="email" placeholder="이메일"><textarea name="memo" placeholder="희망 납기, 세금계산서, 포장단위 등 주문 요청사항"></textarea><label class="agree"><input type="checkbox" required> 견적 및 주문 상담을 위한 개인정보 수집에 동의합니다.</label><button class="btn primary full" type="submit">견적·주문 요청 보내기</button></form></div></section>
+
+<section id="data" class="section dataSec"><div class="sectionHead"><p class="eyebrow">07 TECHNICAL DATA</p><h2>기술자료와 대체품 검색</h2></div><div class="dataGrid"><div class="dataCard photoData"><img src="https://images.unsplash.com/photo-1583521214690-73421a1829a9?auto=format&fit=crop&w=900&q=85" alt="기술문서"><div><h3>품번으로 대체품 찾기</h3><div class="searchBox"><input id="altSearch" placeholder="현재 사용 품번 입력"><button class="btn primary" id="altBtn">검색</button></div><div id="altResults" class="miniResults"></div></div></div><div class="dataCard docs"><h3>자료 구분</h3><div><span>TDS</span><p>제품 성능과 적용조건</p></div><div><span>MSDS</span><p>안전·취급 정보</p></div><div><span>RoHS / REACH</span><p>환경규제 관련 자료</p></div><div><span>가공 사양서</span><p>폭·길이·형상 가공 정보</p></div></div></div></section>
+</main>
+
+<div class="floatingActions"><a href="#consult">기술상담</a><a href="#sample">상담 문의</a><a href="#order">견적·주문</a></div>
+<div class="modal" id="modal"><div class="modalBox"><button id="closeModal" class="close">×</button><div id="modalContent"></div></div></div><div class="toast" id="toast"></div>
+<footer class="siteFooter">
+  <a class="footLogo" href="#home"><img src="assets/images/arche_logo.png" alt="ARCHE" width="220" height="27"></a>
+  <div class="footInfo">
+    <nav class="footMenu"><a href="#home">HOME</a><a href="company.html">회사소개</a><a href="terms.html">이용약관</a><a href="privacy.html">개인정보보호정책</a><a href="directions.html">오시는 길</a></nav>
+    <p><span>대표 : 민성훈</span><span>사업자등록번호 : 140-81-95008</span><span>개인정보책임자 : 정연경</span></p>
+    <p><span>대표전화 : <a href="tel:031-404-9147">031-404-9147</a></span><span>팩스번호 : 031-404-9158</span><span>상담 메일 : <a href="mailto:arche1@arche.co.kr">arche1@arche.co.kr</a></span></p>
+    <p><span>영업시간 : 평일 09:00 - 18:00</span><span>주소 : 경기도 시흥시 윗대야2길 12</span></p>
+    <p class="copy">Copyrights 2026 ARCHE Co.,Ltd. All rights reserved.</p>
+  </div>
+</footer>
+<script src="assets/products.js"></script><script src="assets/app.js"></script>
+<script src="assets/mail.js"></script>
+</body></html>

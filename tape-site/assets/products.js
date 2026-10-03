@@ -1,0 +1,6459 @@
+const products = [
+  {
+    "brand": "ARCHE",
+    "code": "아크릴폼 양면테이프",
+    "name": "ARCHE 아크릴폼 양면테이프",
+    "category": "Foam Tape",
+    "adhesive": "",
+    "carrier": "아크릴 폼",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Automotive",
+      "Construction",
+      "Electronics"
+    ],
+    "applications": [
+      "자동차: 사이드 몰딩, 로고, 스포일러 등의 부착",
+      "건설: 간판, 패널, 단열재 등의 접착",
+      "전자: 부품 고정, 방열판 부착 등"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/5d2b939b44a80.jpg",
+    "source": "(주)아르케 제품 페이지 · 아크릴폼 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=1",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "EVA폼 양면테이프",
+    "name": "ARCHE EVA폼 양면테이프",
+    "category": "Foam Tape",
+    "adhesive": "",
+    "carrier": "EVA 폼 (독립기포)",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Electronics",
+      "Automotive",
+      "Construction"
+    ],
+    "applications": [
+      "전자 제품: 부품 고정, 완충재, 소음 방지",
+      "자동차: 부품 고정, 실링, 방진",
+      "건축/인테리어: 벽면 부착, 마감재 고정, 단열"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/386d8b32945d1.jpg",
+    "source": "(주)아르케 제품 페이지 · EVA폼 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=7",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "PE폼 양면테이프",
+    "name": "ARCHE PE폼 양면테이프",
+    "category": "Foam Tape",
+    "adhesive": "",
+    "carrier": "폴리에틸렌(PE) 폼",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Construction",
+      "Automotive",
+      "Electronics"
+    ],
+    "applications": [
+      "거울, 소음 판넬 부착",
+      "건설 현장 (밀봉, 접착, 단열)",
+      "자동차: 사이드 몰딩, 엠블럼, 차량 내외장재 부착",
+      "창호 밀폐, 진동 방지",
+      "전자/가전: 내부 부품 완충, 방진"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/b0d5d736e43eb.jpg",
+    "source": "(주)아르케 제품 페이지 · PE폼 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=2",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "부직 양면테이프",
+    "name": "ARCHE 부직포 양면테이프",
+    "category": "Double Sided Tape",
+    "adhesive": "",
+    "carrier": "부직포",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Electronics",
+      "Automotive"
+    ],
+    "applications": [
+      "전자 제품 명판 부착",
+      "일반 판넬 접합",
+      "자동차 부품 영구 부착",
+      "멤브레인 스위치, 절연 시트 부착",
+      "펠트지, 가죽, 단열재, 스폰지 소재 가공"
+    ],
+    "substrates": [
+      "금속",
+      "플라스틱",
+      "나무"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/9b316d9ec3880.jpg",
+    "source": "(주)아르케 제품 페이지 · 부직 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=3",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "S-9410",
+    "name": "ARCHE 리무벌 양면테이프",
+    "category": "Double Sided Tape",
+    "adhesive": "",
+    "carrier": "PE",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "DM 발송 시 카드 부착",
+      "신용카드와 종이 부착",
+      "전시회·행사 포스터 부착",
+      "임시 부착물 고정",
+      "POP 광고 부착"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/4c3ff79c99bb2.jpg",
+    "source": "(주)아르케 제품 페이지 · 리무벌 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=6",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "PET 양면테이프",
+    "name": "ARCHE PET 양면테이프",
+    "category": "Double Sided Tape",
+    "adhesive": "아크릴계",
+    "carrier": "PET 필름",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Electronics",
+      "Appliance"
+    ],
+    "applications": [
+      "전자 제품 조립: 명판 부착, LCD 패널 접착",
+      "멤브레인 스위치, 가전 전면 패널 부착",
+      "렌즈 및 LCD 모듈 고정"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/73436787c60ce.jpg",
+    "source": "(주)아르케 제품 페이지 · PET 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=4",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "H130",
+    "name": "ARCHE 핫멜트 양면테이프",
+    "category": "Double Sided Tape",
+    "adhesive": "핫멜트",
+    "carrier": "화지 · 반투명",
+    "thickness": "0.13mm",
+    "temp": "",
+    "industries": [
+      "Packaging"
+    ],
+    "applications": [
+      "가벼운 물건·명판·장식품 부착",
+      "종이 및 제지 포장 (박스 봉합, 봉투 부착)",
+      "섬유 및 가죽 (의류 라벨, 신발 자재)",
+      "일반 DIY 및 사무용"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/f8e0a0a3aeecc.jpg",
+    "source": "(주)아르케 제품 페이지 · 핫멜트 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=5",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "열전도 양면테이프",
+    "name": "ARCHE 열전도 양면테이프",
+    "category": "Thermal Conductive Tape",
+    "adhesive": "열전도성 점착제",
+    "carrier": "",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "LED 조명: LED 칩과 방열판 사이 열 전달",
+      "반도체: 칩과 히트싱크 사이 열 전달"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/8a20ae3fd0904.jpg",
+    "source": "(주)아르케 제품 페이지 · 열전도 양면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=11",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "EVA폼 단면테이프",
+    "name": "ARCHE EVA폼 단면테이프",
+    "category": "Foam Tape",
+    "adhesive": "",
+    "carrier": "EVA 폼",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Furniture",
+      "Electronics",
+      "Automotive"
+    ],
+    "applications": [
+      "가구: 부품 간 완충, 소음 방지, 방진",
+      "전자제품: 부품 고정, 충격 보호, 방진, 방수",
+      "자동차: 부품 조립, 틈새 마감, 소음·진동 감소"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/b03115f738e51.jpg",
+    "source": "(주)아르케 제품 페이지 · EVA폼 단면테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=12",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "글라스 테이프",
+    "name": "ARCHE 글라스(유리섬유) 테이프",
+    "category": "Glass Cloth Tape",
+    "adhesive": "",
+    "carrier": "유리섬유",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "고온 마스킹",
+      "고온 실링",
+      "용접 마스킹",
+      "전기 절연·전선 보호",
+      "배관 파이프 감싸기"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/d92a33a14b7dc.jpg",
+    "source": "(주)아르케 제품 페이지 · 글라스 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=8",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "A-3338",
+    "name": "ARCHE 동(CU) 테이프",
+    "category": "Copper Foil Tape",
+    "adhesive": "아크릴",
+    "carrier": "구리 0.07mm",
+    "thickness": "0.07mm (기재)",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "전자파 차폐",
+      "전기회로 연결",
+      "방열판 부착 열관리",
+      "접지"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/85cf92e0afcc9.jpg",
+    "source": "(주)아르케 제품 페이지 · 동(CU)테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=9",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "AL030P / AL070P",
+    "name": "ARCHE 알루미늄 테이프",
+    "category": "Aluminum Foil Tape",
+    "adhesive": "아크릴",
+    "carrier": "알루미늄 0.03mm / 0.07mm · 은색 · 1,200mm×50M",
+    "thickness": "총 0.05mm / 0.1mm",
+    "temp": "내열 120°C (AL030P)",
+    "industries": [],
+    "applications": [
+      "덕트 및 파이프 밀봉",
+      "공조 시스템 보수",
+      "전자 제품 보호",
+      "단열",
+      "방수"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/c03c98a8517b6.jpg",
+    "source": "(주)아르케 제품 페이지 · 알루미늄 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=15",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "S006G / S006C",
+    "name": "ARCHE 실리콘 테이프 (PET 기재)",
+    "category": "Silicone Tape",
+    "adhesive": "실리콘",
+    "carrier": "PET · 녹색(S006G)/투명(S006C) · 50mm×50M",
+    "thickness": "0.07mm",
+    "temp": "내열 180°C · 전압저항 66KV",
+    "industries": [
+      "Electronics",
+      "Automotive"
+    ],
+    "applications": [
+      "전자/반도체 고온 마스킹 공정",
+      "배터리 및 정밀 부품 고정",
+      "배선 절연"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/41c691613fcc7.jpg",
+    "source": "(주)아르케 제품 페이지 · 실리콘 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=17",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "PI(캡톤) 테이프",
+    "name": "ARCHE PI(폴리이미드·캡톤) 테이프",
+    "category": "Polyimide Tape",
+    "adhesive": "실리콘",
+    "carrier": "폴리이미드 필름 0.025mm · 내전압 5.0KV",
+    "thickness": "0.025mm (필름)",
+    "temp": "",
+    "industries": [
+      "Electronics",
+      "Aerospace"
+    ],
+    "applications": [
+      "PCB 마스킹, 부품 보호, 절연",
+      "2차전지 절연, 탭 보호",
+      "모터·트랜스 코일 절연",
+      "3D 프린터 베드 표면 부착"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/31837dd925f6d.jpg",
+    "source": "(주)아르케 제품 페이지 · PI(캡톤)테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=10",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "MK1200",
+    "name": "ARCHE 마스킹 테이프",
+    "category": "Masking Tape",
+    "adhesive": "고무",
+    "carrier": "종이 · 아이보리 · 1,200mm×40M",
+    "thickness": "0.12mm",
+    "temp": "내열 70°C 이상",
+    "industries": [],
+    "applications": [
+      "도장 작업",
+      "실리콘 작업",
+      "수채화 작업 시 화지 고정",
+      "포스터 부착"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/abe039d21f34f.jpg",
+    "source": "(주)아르케 제품 페이지 · 마스킹 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=13",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "S-1120",
+    "name": "ARCHE 내열 마스킹 테이프",
+    "category": "Masking Tape",
+    "adhesive": "실리콘",
+    "carrier": "종이 · 아이보리 · 1,000mm×30M",
+    "thickness": "0.19mm",
+    "temp": "내열 180°C",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "전자 부품 제조",
+      "도장·도금 등 고온 환경 마스킹 및 표면 보호",
+      "절연 작업"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/c2fa174d4aace.jpg",
+    "source": "(주)아르케 제품 페이지 · 내열 마스킹 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=14",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "L1250",
+    "name": "ARCHE PVC 바닥라인 테이프",
+    "category": "Floor Marking Tape",
+    "adhesive": "",
+    "carrier": "PVC · 황/청/녹/적/보라/백/흑/회/주황 9색",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "바닥 라인 표시로 구역 구분",
+      "안전 표시",
+      "전기 절연",
+      "파이프·호스 연결부 밀봉"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/6dfdc18cc70de.jpg",
+    "source": "(주)아르케 제품 페이지 · PVC 바닥라인 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=16",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "ARCHE",
+    "code": "KF01",
+    "name": "ARCHE 크라프트 테이프",
+    "category": "Packaging Tape",
+    "adhesive": "아크릴",
+    "carrier": "크라프트지 · 1,050mm×40M",
+    "thickness": "0.1mm",
+    "temp": "내열 60°C",
+    "industries": [
+      "Packaging"
+    ],
+    "applications": [
+      "포장",
+      "봉합",
+      "라벨링",
+      "브랜드 홍보 (인쇄 활용)"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/7ced5575c7462.jpg",
+    "source": "(주)아르케 제품 페이지 · 크라프트 테이프",
+    "sourceUrl": "https://arche1.co.kr/shop_view/?idx=18",
+    "verified": "arche_official"
+  },
+  {
+    "brand": "3M",
+    "code": "4421",
+    "name": "3M™ PE 폼 양면테이프 4421",
+    "category": "Foam Tape",
+    "adhesive": "",
+    "carrier": "PE(폴리에틸렌) 폼 · 흰색",
+    "thickness": "1.0mm",
+    "temp": "장기 65°C / 단기 80°C",
+    "industries": [
+      "General Industrial"
+    ],
+    "applications": [
+      "안내판·사인물 부착",
+      "거울·액자·사진 프레임 고정",
+      "가벼운 패널 고정",
+      "기계적 체결·용접 대체 조립"
+    ],
+    "substrates": [
+      "불규칙·곡면 표면"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2622671J/3m-polyethylene-foam-tape-4421-white-detail.jpg",
+    "source": "한국쓰리엠 제품페이지 4421 (내열·용도: 아르케 제품페이지)",
+    "sourceUrl": "https://www.3m.co.kr/3M/ko_KR/p/d/v000464379/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9448A",
+    "name": "Double Coated Tissue Tape 9448A",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Tissue · 백색 PCK liner",
+    "thickness": "0.15mm",
+    "temp": "장기 70°C / 단기 150°C",
+    "industries": [],
+    "applications": [
+      "Nameplate Bonding",
+      "Film Lamination",
+      "Foam Bonding"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "PC",
+      "PP"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2521907J/3m-double-coated-tissue-tape-9448a.jpg",
+    "source": "3M TDS 9448A",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/900994O/3m-tm-double-coated-tissue-tape-9448a.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "467MP",
+    "name": "Adhesive Transfer Tape 467MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · 58# PCK liner",
+    "thickness": "0.06mm",
+    "temp": "장기 149°C / 단기 204°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Graphic Overlay Bonding"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "ABS",
+      "PMMA",
+      "Glass",
+      "PC"
+    ],
+    "alternatives": [
+      "3M 468MP",
+      "3M 467MPF",
+      "3M 468MPF",
+      "3M 7952MP"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/437693J/3mtm-adhesive-transfer-tape-467mp-clear-rolls.jpg",
+    "source": "3M TDS 467MP",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366204O/3m-adhesive-transfer-tape-467mp.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "468MP",
+    "name": "Adhesive Transfer Tape 468MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · 58# PCK liner",
+    "thickness": "0.13mm",
+    "temp": "장기 149°C / 단기 204°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Graphic Overlay Bonding",
+      "Membrane Switch"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Glass",
+      "PC",
+      "PMMA"
+    ],
+    "alternatives": [
+      "3M 467MP",
+      "3M 467MPF",
+      "3M 468MPF",
+      "3M 7952MP"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/602318J/3m-tm-adhesive-transfer-tape-468mp-family-group-tan-liner-green.jpg",
+    "source": "3M TDS 468MP",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2395855O/3m-adhesive-transfer-tape-468mp.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9473PC",
+    "name": "Adhesive Transfer Tape 9473PC",
+    "category": "Transfer Tape",
+    "adhesive": "100MP High Performance Acrylic",
+    "carrier": "Transfer (no carrier) · PCK liner",
+    "thickness": "0.26mm",
+    "temp": "장기 149°C / 단기 260°C",
+    "industries": [
+      "Metal Fabrication",
+      "Electronics"
+    ],
+    "applications": [
+      "Metal Fabrication",
+      "Trim Bonding",
+      "FPC to Stiffener/Heat Sink",
+      "Panel to Frame"
+    ],
+    "substrates": [
+      "Glass",
+      "Metal",
+      "Polyimide",
+      "PVC",
+      "PMMA",
+      "PC",
+      "Polystyrene"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2513804J/3m-vhb-adhesive-transfer-tape-f9473pc.jpg",
+    "source": "3M 제품페이지 9473PC",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40065879/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9080HL",
+    "name": "Double Coated Tape 9080HL",
+    "category": "Double Sided Tape",
+    "adhesive": "High tack acrylic (양면)",
+    "carrier": "Non-woven",
+    "thickness": "0.16mm",
+    "temp": "",
+    "industries": [
+      "Paper & Film Converting"
+    ],
+    "applications": [
+      "Splicing",
+      "Film Lamination"
+    ],
+    "substrates": [
+      "Paper",
+      "PE",
+      "PP",
+      "PVC"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260225/6f5fba0a44d73.jpg",
+    "source": "3M 제품페이지 9080HL",
+    "sourceUrl": "https://www.3m.com/3M/sl_SI/p/d/b40070507/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "5952 VHB",
+    "name": "VHB Tape 5952",
+    "category": "Foam Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "Soft acrylic foam (black) · Red film liner",
+    "thickness": "1.1mm",
+    "temp": "장기 121°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Powder Coat Bonding",
+      "Outdoor Mounting"
+    ],
+    "substrates": [
+      "Metal",
+      "Powder Coat",
+      "Plastic",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M VHB 5925",
+      "3M VHB 5962"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2396596J/3m-vhb-tape-5952.jpg",
+    "source": "3M TDS VHB 5952",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366487O/3m-vhb-tape-5952.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "4910 VHB",
+    "name": "VHB Tape 4910 (Clear)",
+    "category": "Foam Tape",
+    "adhesive": "Clear acrylic (firm)",
+    "carrier": "Acrylic foam · Red film liner",
+    "thickness": "1.0mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Transparent Bonding",
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Glass",
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [
+      "3M VHB 4905",
+      "3M VHB 4915"
+    ],
+    "img": "https://cdn.imweb.me/thumbnail/20260224/b693f76f06265.jpg",
+    "source": "3M TDS VHB 4910",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366536O/3m-vhb-tape-specialty-tape-4910.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP100",
+    "name": "Scotch-Weld Epoxy Adhesive DP100",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2액형 에폭시 (Rigid, Clear)",
+    "carrier": "액상 2액형 · 작업시간 5분 · 핸들링 20분",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "General Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Wood",
+      "Concrete"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP420",
+    "name": "Scotch-Weld Epoxy Adhesive DP420",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2액형 강인화 에폭시 (Black/Off-White)",
+    "carrier": "액상 2액형 · 작업시간 20분 · 핸들링 2시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Impact Resistant Bonding",
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP460",
+    "name": "Scotch-Weld Epoxy Adhesive DP460",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2액형 강인화 에폭시 (Off-White)",
+    "carrier": "액상 2액형 · 작업시간 60분 · 핸들링 4시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Impact Resistant Bonding"
+    ],
+    "substrates": [
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4965",
+    "name": "tesa 4965 Original Next Gen",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.205mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Mounting",
+      "Plastic Parts Mounting"
+    ],
+    "substrates": [
+      "ABS",
+      "PE",
+      "PVC"
+    ],
+    "alternatives": [
+      "tesa 4967"
+    ],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/785230823d55a.jpg",
+    "source": "tesa 제품페이지 4965 Original Next Gen",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-4965-original.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4970",
+    "name": "tesa 4970",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PVC",
+    "thickness": "0.225mm",
+    "temp": "장기 60°C / 단기 70°C",
+    "industries": [],
+    "applications": [
+      "Heavy Sign Mounting",
+      "POS Display"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202410/2/medium-11642014,11642014_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4970",
+    "sourceUrl": "https://www.tesa.com/en-au/industry/tesa-4970.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5000NS",
+    "name": "No.5000NS Re-peelable Strong Adhesive Double Sided Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.16mm",
+    "temp": "",
+    "industries": [
+      "Office Equipment",
+      "Home Appliances",
+      "Electronics"
+    ],
+    "applications": [
+      "Bonding of metal plates, plastic plates and foam",
+      "Bonding of cushioning and sealing materials in printers, copiers, televisions",
+      "Bonding of inner parts of cellular phones or personal computers, and PET films",
+      "Applications requiring re-peeling"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "PP",
+      "ABS",
+      "Acrylic",
+      "PC/ABS",
+      "PS",
+      "PC",
+      "PVC",
+      "PET",
+      "Glass",
+      "Urethane foam"
+    ],
+    "alternatives": [
+      "Nitto 5000N",
+      "Nitto No.5000NCB",
+      "Nitto No.5000E"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_008_img_No.5000NSphoto_L.jpg",
+    "source": "Nitto 데이터시트 No.5000NS / 제품페이지 double/008",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_No.5000NS_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5015",
+    "name": "No.5015 Thin, Strong Adhesive Double Sided Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.12mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "General bonding of metal plates, plastic plates and foam",
+      "Fixing of items continuously supporting slight force such as nameplates or foam"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "PP",
+      "PC",
+      "ABS",
+      "PVC",
+      "PS",
+      "POM",
+      "PE",
+      "Phenolic resin"
+    ],
+    "alternatives": [],
+    "img": "https://www.nitto.com/us/en/Images/double_010_img_No.5015photo_L.jpg",
+    "source": "Nitto 데이터시트 No.5015 / 제품페이지 double/010",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_No.5015_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "401",
+    "name": "LOCTITE 401 Instant Adhesive",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate (surface-insensitive)",
+    "carrier": "투명 저점도 액상, 약 100 mPa·s / 고정시간 약 5초(스틸)",
+    "thickness": "",
+    "temp": "-40~120°C",
+    "industries": [
+      "풍력",
+      "산업 유지보수(MRO)",
+      "오일·가스",
+      "발전",
+      "산업 제조",
+      "전동기",
+      "유압·유체기기",
+      "재제조"
+    ],
+    "applications": [
+      "밀착 부품 접합",
+      "수리",
+      "고속 고정 조립"
+    ],
+    "substrates": [
+      "금속",
+      "고무",
+      "목재",
+      "골판지",
+      "세라믹",
+      "대부분의 플라스틱",
+      "가죽",
+      "직물",
+      "PP·PE·PTFE(SF 770 프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 401",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-401/BP000000153529.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "406",
+    "name": "LOCTITE 406 Instant Adhesive (Low-viscosity for tight fitting parts)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "투명 초저점도 액상, 약 20 mPa·s / 고정시간 약 30초(스틸)",
+    "thickness": "",
+    "temp": "-40~120°C",
+    "industries": [
+      "산업 제조",
+      "가전"
+    ],
+    "applications": [
+      "엘라스토머·플라스틱 접합",
+      "난접착 소재(PP·PE·PTFE) 접합(SF 770 프라이머 병용)"
+    ],
+    "substrates": [
+      "플라스틱",
+      "고무",
+      "EPDM 등 엘라스토머"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 406",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-406/BP000000153530.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "480",
+    "name": "LOCTITE 480 Instant Adhesive (Toughened, low-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Toughened cyanoacrylate",
+    "carrier": "흑색 저점도 액상, 약 200 mPa·s / 고정시간 약 90초(스틸)",
+    "thickness": "",
+    "temp": "-40~100°C",
+    "industries": [
+      "산업 유지보수(MRO)",
+      "오일·가스",
+      "발전",
+      "산업 제조",
+      "전동기",
+      "유압·유체기기"
+    ],
+    "applications": [
+      "밀착 부품 접합",
+      "충격 하중 부위 접합"
+    ],
+    "substrates": [
+      "금속",
+      "엘라스토머(고무)",
+      "플라스틱"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 480",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-480/BP000000153522.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9460",
+    "name": "LOCTITE EA 9460",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part toughened modified epoxy (thixotropic)",
+    "carrier": "Mix ratio 1:1 (vol/wt); gray mixed (resin white / hardener black); non-sag; full cure 72h @25°C or 6-8h up to 149°C",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Bonding dissimilar substrates",
+      "Machinery repair",
+      "Chassis and powertrain bonding"
+    ],
+    "substrates": [
+      "Metals",
+      "Engineering thermoplastics",
+      "Thermoset laminates (SMC)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9460",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-repair-materials/central-pdp.html/loctite-ea-9460/BP000000153824.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4905",
+    "name": "VHB Tape 4905 (Clear)",
+    "category": "Foam Tape",
+    "adhesive": "Clear acrylic (firm)",
+    "carrier": "Acrylic foam · Red film liner",
+    "thickness": "0.5mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Transparent Bonding",
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Glass",
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [
+      "3M 4910 VHB",
+      "3M VHB 4915"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2373700J/3m-vhb-tape-4910.jpg",
+    "source": "3M VHB Tapes Product Information (2023.12)",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2371577O/3m-vhb-tapes-product-information-guide.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4915",
+    "name": "VHB Tape 4915 (Clear)",
+    "category": "Foam Tape",
+    "adhesive": "Clear acrylic (firm)",
+    "carrier": "Acrylic foam · Red film liner",
+    "thickness": "1.5mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Transparent Bonding",
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Glass",
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [
+      "3M VHB 4905",
+      "3M 4910 VHB"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/1125925J/3m-vhb-tape-4915-6-mm-x-25-m-crop-tif.jpg",
+    "source": "3M VHB Tapes Product Information (2023.12)",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2371577O/3m-vhb-tapes-product-information-guide.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4920",
+    "name": "VHB Tape 4920",
+    "category": "Foam Tape",
+    "adhesive": "General purpose acrylic",
+    "carrier": "Firm acrylic foam (white) · DK paper liner",
+    "thickness": "0.4mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Fastener Replacement",
+      "Sealing"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Glass",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2330130J/3m-vhb-tape-4950-white-2-in-x-36-yd-45-mil.jpg",
+    "source": "3M TDS VHB 4920",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366477O/3m-vhb-tape-specialty-tape-4920.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4930",
+    "name": "VHB Tape 4930",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic (firm)",
+    "carrier": "Firm acrylic foam (white) · Paper liner",
+    "thickness": "0.64mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Dynamic Stress Metal Bonding"
+    ],
+    "substrates": [
+      "Metal"
+    ],
+    "alternatives": [
+      "3M VHB 4950"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2330130J/3m-vhb-tape-4950-white-2-in-x-36-yd-45-mil.jpg",
+    "source": "3M VHB Tapes Product Information (2023.12)",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2371577O/3m-vhb-tapes-product-information-guide.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4941",
+    "name": "VHB Tape 4941",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic (soft)",
+    "carrier": "Conformable acrylic foam (gray) · Paper liner",
+    "thickness": "1.1mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Dissimilar Materials"
+    ],
+    "substrates": [
+      "Metal",
+      "Glass",
+      "Plastic",
+      "Plasticized Vinyl"
+    ],
+    "alternatives": [
+      "3M VHB 4991"
+    ],
+    "img": "https://cdn.imweb.me/thumbnail/20260224/b693f76f06265.jpg",
+    "source": "3M TDS VHB 4941",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366460O/3M-VHB-Tape-4941.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4950",
+    "name": "VHB Tape 4950",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic (firm)",
+    "carrier": "Firm acrylic foam (white) · Paper liner",
+    "thickness": "1.1mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Dynamic Stress Metal Bonding"
+    ],
+    "substrates": [
+      "Metal"
+    ],
+    "alternatives": [
+      "3M VHB 4930"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2330130J/3m-vhb-tape-4950-white-2-in-x-36-yd-45-mil.jpg",
+    "source": "3M VHB Tapes Product Information (2023.12)",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2371577O/3m-vhb-tapes-product-information-guide.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4952",
+    "name": "VHB Tape 4952",
+    "category": "Foam Tape",
+    "adhesive": "LSE acrylic",
+    "carrier": "Firm acrylic foam (white) · DK paper liner",
+    "thickness": "1.1mm",
+    "temp": "장기 71°C / 단기 93°C",
+    "industries": [],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Fastener Replacement",
+      "Sealing"
+    ],
+    "substrates": [
+      "Metal",
+      "Glass",
+      "Plastic",
+      "Painted Surface",
+      "LSE Plastics"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2330130J/3m-vhb-tape-4950-white-2-in-x-36-yd-45-mil.jpg",
+    "source": "3M TDS VHB 4952",
+    "sourceUrl": "https://www.generaladhesivos.com/proveedor-pegamento/31hoja-tecnica-3M%E2%84%A2%20VHB%E2%84%A2%20Tape%20-%20Specialty%20Tape%204952.pdf",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4956",
+    "name": "VHB Tape 4956",
+    "category": "Foam Tape",
+    "adhesive": "Multi-purpose acrylic",
+    "carrier": "Conformable acrylic foam (gray) · DK paper liner",
+    "thickness": "1.6mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Fastener Replacement"
+    ],
+    "substrates": [
+      "Metal",
+      "Glass",
+      "Painted Surface",
+      "Plastic",
+      "Plasticized Vinyl"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260224/b693f76f06265.jpg",
+    "source": "3M TDS VHB 4956",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366488O/3m-vhb-tape-4956.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 4991",
+    "name": "VHB Tape 4991",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic (soft)",
+    "carrier": "Acrylic foam (gray) · Red film liner",
+    "thickness": "2.3mm",
+    "temp": "장기 93°C / 단기 121°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Dissimilar Materials"
+    ],
+    "substrates": [
+      "Metal",
+      "Glass",
+      "Plastic",
+      "Plasticized Vinyl"
+    ],
+    "alternatives": [
+      "3M VHB 4941"
+    ],
+    "img": "https://cdn.imweb.me/thumbnail/20260224/b693f76f06265.jpg",
+    "source": "3M TDS VHB 4991",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366490O/3m-vhb-tape-4991.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 5925",
+    "name": "VHB Tape 5925",
+    "category": "Foam Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "Soft acrylic foam (black) · Red film liner",
+    "thickness": "0.64mm",
+    "temp": "장기 121°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Powder Coat Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Powder Coat",
+      "Plastic",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M 5952 VHB",
+      "3M VHB 5962"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2144416J/3m-vhb-tape-5952-black-1-in-x-36-yd-45-mil.jpg",
+    "source": "3M TDS VHB 5925",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366505O/3M-VHB-Tape-5925.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "VHB 5962",
+    "name": "VHB Tape 5962",
+    "category": "Foam Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "Soft acrylic foam (black) · Red film liner",
+    "thickness": "1.55mm",
+    "temp": "장기 121°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Powder Coat Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Powder Coat",
+      "Plastic",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M 5952 VHB",
+      "3M VHB 5925"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2144415J/3m-vhb-tape-5952-black-1-in-x-36-yd-45-mil.jpg",
+    "source": "3M TDS VHB 5962",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2369601O/3m-vhb-tape-5962-technical-data-sheet.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "467MPF",
+    "name": "Adhesive Transfer Tape 467MPF",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · PET film liner",
+    "thickness": "0.06mm",
+    "temp": "단기 204°C",
+    "industries": [
+      "Aerospace",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Membrane Switch",
+      "Flexible Circuit Lamination",
+      "Foam Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [
+      "3M 467MP",
+      "3M 468MP",
+      "3M 468MPF",
+      "3M 7952MP"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/859865J/3m-tm-adhesive-transfer-tape-467mpf.jpg",
+    "source": "3M 제품페이지 467MPF",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071701/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "468MPF",
+    "name": "Adhesive Transfer Tape 468MPF",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · PET film liner",
+    "thickness": "0.13mm",
+    "temp": "장기 149°C / 단기 204°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Membrane Switch",
+      "Flexible Circuit Lamination",
+      "Foam Lamination"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "ABS",
+      "PMMA",
+      "Aluminum",
+      "Glass",
+      "PC",
+      "PVC"
+    ],
+    "alternatives": [
+      "3M 467MP",
+      "3M 468MP",
+      "3M 467MPF",
+      "3M 7952MP"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/602318J/3m-tm-adhesive-transfer-tape-468mp-family-group-tan-liner-green.jpg",
+    "source": "3M TDS 468MPF",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366180O/3M-Adhesive-Transfer-Tape-468MPF.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "7952MP",
+    "name": "Adhesive Transfer Tape 7952MP (Double Linered)",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · 양면 PCK liner",
+    "thickness": "0.06mm",
+    "temp": "장기 149°C / 단기 204°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Graphic Overlay Bonding",
+      "Membrane Switch",
+      "Flexible Circuit Lamination"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Glass",
+      "PC",
+      "PMMA",
+      "ABS",
+      "PVC"
+    ],
+    "alternatives": [
+      "3M 467MP",
+      "3M 468MP",
+      "3M 467MPF",
+      "3M 468MPF"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/694493P/3mtm-adhesive-transfer-tape-double-linered-7952mp.jpg",
+    "source": "3M TDS 7952MP",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366048O/3M-Adhesive-Transfer-Tape-7952MP.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "7955MP",
+    "name": "Adhesive Transfer Tape 7955MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier)",
+    "thickness": "0.13mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Nameplate Bonding",
+      "Membrane Switch",
+      "Foam Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/437701J/3m-tm-double-linered-adhesive-transfer-tape-7955mp.jpg",
+    "source": "3M 7955MP 데이터시트(유통사 게재)",
+    "sourceUrl": "https://www.budnick.com/Datasheets/3M/7955MP",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "7956MP",
+    "name": "Membrane Switch Spacer 7956MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic (양면)",
+    "carrier": "PET film 0.05mm",
+    "thickness": "0.15mm",
+    "temp": "단기 204°C",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Membrane Switch Spacer",
+      "Circuit Layer Assembly",
+      "Die-cut Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/440968J/3m-double-coated-membrane-switch-spacer-7959mp.jpg",
+    "source": "3M 7956MP 사양(유통사 게재)",
+    "sourceUrl": "https://catalog.converters.com/item/adhesive-transfer-tapes/3m-trade-membrane-switch-spacer/7956mp",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "7962MP",
+    "name": "Adhesive Transfer Tape 7962MP (Double Linered)",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · 양면 PCK liner",
+    "thickness": "0.06mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Membrane Switch",
+      "Foam Lamination"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "PMMA",
+      "PC",
+      "ABS",
+      "Glass",
+      "PVC",
+      "PET"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/689021J/3m-tm-adhesive-transfer-tape-double-linered-7962mp.jpg",
+    "source": "3M TDS 7962MP",
+    "sourceUrl": "https://www.cadillacplastic.co.uk/wp-content/uploads/2025/06/3M-Adhesive-Transfer-Tape-7962MP.pdf",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "7965MP",
+    "name": "Adhesive Transfer Tape 7965MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier)",
+    "thickness": "0.13mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Nameplate Bonding",
+      "Membrane Switch",
+      "Foam Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/689022J/3m-tm-adhesive-transfer-tape-double-linered-7965mp.jpg",
+    "source": "3M 7965MP 데이터시트(유통사 게재)",
+    "sourceUrl": "https://www.budnick.com/Datasheets/3M/7965MP",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "9667MP",
+    "name": "Adhesive Transfer Tape 9667MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · 78# PCK liner",
+    "thickness": "0.06mm",
+    "temp": "최대 204°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Graphic Overlay Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "PC",
+      "PET"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/859889J/3m-tm-adhesive-transfer-tape-9667mp.jpg",
+    "source": "3M 제품페이지 9667MP",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40065880/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9668MP",
+    "name": "Adhesive Transfer Tape 9668MP",
+    "category": "Transfer Tape",
+    "adhesive": "200MP Acrylic",
+    "carrier": "Transfer (no carrier) · 78# PCK liner",
+    "thickness": "0.13mm",
+    "temp": "최대 204°C",
+    "industries": [
+      "Aerospace",
+      "Medical",
+      "Automotive",
+      "Appliance",
+      "Electronics"
+    ],
+    "applications": [
+      "Nameplate Bonding",
+      "Membrane Switch",
+      "Textured Surface Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/859894J/3m-tm-adhesive-transfer-tape-9668mp.jpg",
+    "source": "3M 제품페이지 9668MP",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40065917/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9671LE",
+    "name": "Adhesive Transfer Tape 9671LE",
+    "category": "Transfer Tape",
+    "adhesive": "300LSE Acrylic",
+    "carrier": "Transfer (no carrier) · 83# PCK liner",
+    "thickness": "0.05mm",
+    "temp": "-40 ~ 148°C",
+    "industries": [
+      "Electronics",
+      "Automotive",
+      "Appliance",
+      "Medical"
+    ],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Trim Attachment",
+      "Electronics Assembly"
+    ],
+    "substrates": [
+      "Metal",
+      "PP",
+      "Powder Coat",
+      "Glass",
+      "Paper",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M 9471LE",
+      "3M 9472LE"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/859891J/3m-tm-adhesive-transfer-tape-9671le.jpg",
+    "source": "3M 제품페이지 9671LE",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40065889/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9471LE",
+    "name": "Adhesive Transfer Tape 9471LE",
+    "category": "Transfer Tape",
+    "adhesive": "300LSE Acrylic",
+    "carrier": "Transfer (no carrier) · 58# PCK liner",
+    "thickness": "0.05mm",
+    "temp": "-40 ~ 148°C",
+    "industries": [
+      "Electronics",
+      "Automotive",
+      "Appliance",
+      "Medical"
+    ],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Trim Attachment",
+      "Electronics Assembly"
+    ],
+    "substrates": [
+      "Metal",
+      "PP",
+      "Powder Coat",
+      "Glass",
+      "Paper",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M 9472LE",
+      "3M 9671LE"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2418759J/3m-adhesive-transfer-tape-300lse-9471le.jpg",
+    "source": "3M 제품페이지 9471LE",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40065864/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9472LE",
+    "name": "Adhesive Transfer Tape 9472LE",
+    "category": "Transfer Tape",
+    "adhesive": "300LSE Acrylic",
+    "carrier": "Transfer (no carrier) · 58# PCK liner",
+    "thickness": "0.13mm",
+    "temp": "-40 ~ 148°C",
+    "industries": [
+      "Electronics",
+      "Automotive",
+      "Appliance",
+      "Medical"
+    ],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Textured Surface Bonding",
+      "Trim Attachment"
+    ],
+    "substrates": [
+      "Metal",
+      "PP",
+      "Powder Coat",
+      "Glass",
+      "Paper",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M 9471LE",
+      "3M 9671LE"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/2419447J/3m-adhesive-transfer-tape-9472le.jpg",
+    "source": "3M 제품페이지 9472LE",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071705/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9474LE",
+    "name": "Double Coated Tape 9474LE",
+    "category": "Transfer Tape",
+    "adhesive": "300LSE Acrylic (양면)",
+    "carrier": "PET 0.013mm",
+    "thickness": "0.17mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Foam to Powder Coat"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "PP",
+      "PC",
+      "ABS",
+      "Glass",
+      "Powder Coat"
+    ],
+    "alternatives": [
+      "3M 9475LE",
+      "3M 9495LE"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/361662J/3mtm-laminating-adhesive-300lse.jpg",
+    "source": "3M TDS 9474LE·9475LE·9495LE",
+    "sourceUrl": "https://www.usnameplate.com/files/documents/resources/specs/3M-9474LE-9475LE-9495LE.pdf",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "9475LE",
+    "name": "Double Coated Tape 9475LE",
+    "category": "Transfer Tape",
+    "adhesive": "300LSE Acrylic (양면)",
+    "carrier": "PET 0.013mm",
+    "thickness": "0.114mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Foam to Powder Coat"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "PP",
+      "PC",
+      "ABS",
+      "Glass",
+      "Powder Coat"
+    ],
+    "alternatives": [
+      "3M 9474LE",
+      "3M 9495LE"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/824198P/300lse-die-cutting-converter-adhesive-product-image.jpg",
+    "source": "3M TDS 9475LE",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/545361O/high-stength-dc-tape-w-adhesive-300lse-9475le-9475leb.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9495LE",
+    "name": "Double Coated Tape 9495LE",
+    "category": "Transfer Tape",
+    "adhesive": "300LSE Acrylic (양면)",
+    "carrier": "PET 0.013mm",
+    "thickness": "0.17mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "LSE Plastic Bonding",
+      "Foam to Powder Coat"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "PP",
+      "PC",
+      "ABS",
+      "Glass",
+      "Powder Coat"
+    ],
+    "alternatives": [
+      "3M 9474LE",
+      "3M 9475LE"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/864274J/3m-tm-double-coated-tape-9495b.jpg",
+    "source": "3M TDS 9495LE",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366195O/3m-double-coated-tape-9495le.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9502",
+    "name": "Adhesive Transfer Tape 9502",
+    "category": "Transfer Tape",
+    "adhesive": "Adhesive 220 Acrylic",
+    "carrier": "Transfer (no carrier) · 58# PCK liner",
+    "thickness": "0.06mm",
+    "temp": "장기 121°C / 단기 177°C",
+    "industries": [],
+    "applications": [
+      "Nameplate Bonding",
+      "Decorative Trim",
+      "Graphic Overlay Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "Painted Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [
+      "3M 9505"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/437698J/3m-tm-adhesive-transfer-tape-9502.jpg",
+    "source": "3M TDS 9502 (Adhesive 220)",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366062O/3m-adhesive-transfer-tape-9502.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9505",
+    "name": "Adhesive Transfer Tape 9505",
+    "category": "Transfer Tape",
+    "adhesive": "Adhesive 220 Acrylic",
+    "carrier": "Transfer (no carrier) · 58# PCK liner",
+    "thickness": "0.12mm",
+    "temp": "장기 121°C / 단기 177°C",
+    "industries": [],
+    "applications": [
+      "Nameplate Bonding",
+      "Decorative Trim",
+      "Graphic Overlay Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "Painted Metal",
+      "High Surface Energy Plastics"
+    ],
+    "alternatives": [
+      "3M 9502"
+    ],
+    "img": "https://multimedia.3m.com/mws/media/859883J/3m-tm-adhesive-transfer-tape-9505.jpg",
+    "source": "3M TDS 9505 (Adhesive 220)",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2365963O/3m-adhesive-transfer-tape-9505.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9080A",
+    "name": "Double Coated Tissue Tape 9080A",
+    "category": "Double Sided Tape",
+    "adhesive": "High tack acrylic (양면)",
+    "carrier": "Tissue",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Bonding",
+      "Lamination"
+    ],
+    "substrates": [
+      "LSE Plastics"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2319318J/3m-double-coated-tissue-tape-9080a.jpg",
+    "source": "3M 제품페이지 9080A",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b5005094008/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9077",
+    "name": "Ultra High Temperature Double Coated Tape 9077",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic (저아웃가스)",
+    "carrier": "Non-woven",
+    "thickness": "0.05mm",
+    "temp": "장기 149°C / 단기 260°C",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "FPC Attachment",
+      "Lead-free Reflow"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2319294J/3m-ultra-high-temperature-double-coated-tape-9077.jpg",
+    "source": "3M TDS 9077",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2365982O/3m-ultra-high-temperature-double-coated-tape-9077.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "96042",
+    "name": "Double Coated Tape 96042",
+    "category": "Double Sided Tape",
+    "adhesive": "Silicone (양면)",
+    "carrier": "PET 0.025mm",
+    "thickness": "0.13mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Silicone Bonding",
+      "Vibration Damping",
+      "High Temperature Bonding"
+    ],
+    "substrates": [
+      "ABS",
+      "PC",
+      "PP",
+      "Silicone Rubber",
+      "Stainless Steel"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "3M TDS 96042",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366223O/3M-Double-Coated-Tape-96042.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9609",
+    "name": "Double Coated Tape 9609",
+    "category": "Double Sided Tape",
+    "adhesive": "300MP Acrylic (양면)",
+    "carrier": "PET 0.051mm",
+    "thickness": "0.23mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [
+      "Electronics",
+      "Appliance"
+    ],
+    "applications": [
+      "Lens Attachment",
+      "Foam Lamination",
+      "Nameplate Bonding",
+      "Decorative Trim"
+    ],
+    "substrates": [
+      "ABS",
+      "PC",
+      "PET",
+      "Stainless Steel",
+      "Aluminum"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "3M 9609 Product Description",
+    "sourceUrl": "https://www.atlanticgasket.com/pdf/3M%20Double%20Coated%20Tape%209609.pdf",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "9425HT",
+    "name": "Removable Repositionable Double Coated Tape 9425HT",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic 420(영구) / 1050(재부착)",
+    "carrier": "PET",
+    "thickness": "0.14mm",
+    "temp": "PET 기재 121°C까지 안정",
+    "industries": [
+      "Packaging"
+    ],
+    "applications": [
+      "Removable Mounting",
+      "POP Display",
+      "Reclosable Bag",
+      "Temporary Gasket Positioning"
+    ],
+    "substrates": [
+      "Paper",
+      "Plastic",
+      "Film",
+      "Foam",
+      "Foil"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/2364150J/3m-removable-repositionable-double-coated-tape-9425ht-clear-8-in-x-11-in-sheet.jpg",
+    "source": "3M 제품페이지 9425HT",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071901/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9731",
+    "name": "Double Coated Tape 9731",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic 350 / Silicone",
+    "carrier": "PET 0.025mm",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Silicone Rubber Bonding",
+      "Gasketing",
+      "Filters"
+    ],
+    "substrates": [
+      "Silicone Rubber",
+      "Silicone Foam"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/1140138J/3m-double-coated-tape-9731-24-in-x-36-yd-crop.jpg",
+    "source": "3M 제품페이지 9731",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40071892/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9690",
+    "name": "Double Coated Tape 9690",
+    "category": "Double Sided Tape",
+    "adhesive": "300MP Acrylic (양면)",
+    "carrier": "PET",
+    "thickness": "0.12mm",
+    "temp": "",
+    "industries": [
+      "Electronics",
+      "Appliance"
+    ],
+    "applications": [
+      "Foam Bonding",
+      "Sound Damping"
+    ],
+    "substrates": [
+      "Foam",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/825612J/3m-tm-double-coated-tape-99786.jpg",
+    "source": "3M 9690 데이터시트(유통사 게재)",
+    "sourceUrl": "https://www.budnick.com/Datasheets/3M/9690",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "3M",
+    "code": "9495MP",
+    "name": "Double Coated Tape 9495MP",
+    "category": "Double Sided Tape",
+    "adhesive": "200MP Acrylic (양면)",
+    "carrier": "PET 0.013mm",
+    "thickness": "0.14mm",
+    "temp": "장기 121°C / 단기 149°C",
+    "industries": [],
+    "applications": [
+      "Graphic Overlay",
+      "Nameplate Bonding",
+      "Lens Attachment",
+      "Foam Lamination"
+    ],
+    "substrates": [
+      "Metal",
+      "High Surface Energy Plastics",
+      "Foam"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/864274J/3m-tm-double-coated-tape-9495b.jpg",
+    "source": "3M 제품페이지 9495MP",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b00051533/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9490LE",
+    "name": "Double Coated Tape 9490LE",
+    "category": "Double Sided Tape",
+    "adhesive": "300MP / 300LSE Acrylic",
+    "carrier": "PET",
+    "thickness": "0.17mm",
+    "temp": "장기 93°C / 단기 149°C",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Foam Attachment",
+      "LSE Plastic Bonding",
+      "Graphic Attachment"
+    ],
+    "substrates": [
+      "PP",
+      "Powder Coat",
+      "Foam",
+      "Fabric"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/825612J/3m-tm-double-coated-tape-99786.jpg",
+    "source": "3M TDS 9490LE",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/771682O/3mtm-double-coated-tape-9490le.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "9832HL",
+    "name": "Double Coated Tape 9832HL",
+    "category": "Double Sided Tape",
+    "adhesive": "300MP Acrylic (양면)",
+    "carrier": "PET",
+    "thickness": "0.12mm",
+    "temp": "장기 93°C / 단기 121°C",
+    "industries": [
+      "Furniture"
+    ],
+    "applications": [
+      "Edge Banding",
+      "Veneer",
+      "Foam Lamination",
+      "Parts Bonding"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "ABS",
+      "PC",
+      "PP",
+      "Wood",
+      "Melamine",
+      "Foam"
+    ],
+    "alternatives": [],
+    "img": "https://multimedia.3m.com/mws/media/445931J/3m-double-coated-tape-9832.jpg",
+    "source": "3M TDS 9832HL",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/2366094O/3m-double-coated-tape-9832hl.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP105",
+    "name": "Scotch-Weld Epoxy Adhesive DP105",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 에폭시 (Flexible, Clear)",
+    "carrier": "액상 2액형 · 작업시간 5분 · 핸들링 20분",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Flexible Bonding"
+    ],
+    "substrates": [
+      "Dissimilar Materials"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP110",
+    "name": "Scotch-Weld Epoxy Adhesive DP110",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 에폭시 (Flexible, Gray/Translucent)",
+    "carrier": "액상 2액형 · 작업시간 8분 · 핸들링 20분",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Flexible Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Composite",
+      "Dissimilar Materials"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP125",
+    "name": "Scotch-Weld Epoxy Adhesive DP125",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 에폭시 (Flexible, Gray)",
+    "carrier": "액상 2액형 · 작업시간 25분 · 핸들링 2.5시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Flexible Bonding",
+      "Plastic Bonding"
+    ],
+    "substrates": [
+      "Plastic",
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP190",
+    "name": "Scotch-Weld Epoxy Adhesive DP190",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 에폭시 (Gray)",
+    "carrier": "액상 2액형 · 작업시간 90분 · 핸들링 10시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Composite"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP410",
+    "name": "Scotch-Weld Epoxy Adhesive DP410",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 강인화 에폭시",
+    "carrier": "액상 2액형 · 작업시간 12분 · 핸들링 80분",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Impact Resistant Bonding"
+    ],
+    "substrates": [
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP420NS",
+    "name": "Scotch-Weld Epoxy Adhesive DP420NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 강인화 에폭시 (Non-sag, Black)",
+    "carrier": "액상 2액형 · 작업시간 20분 · 핸들링 2시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Impact Resistant Bonding",
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP460NS",
+    "name": "Scotch-Weld Epoxy Adhesive DP460NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 강인화 에폭시 (Non-sag, Off-White)",
+    "carrier": "액상 2액형 · 작업시간 60분 · 핸들링 4시간",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Impact Resistant Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Ceramic",
+      "Wood",
+      "Glass",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M 제품페이지 DP460NS",
+    "sourceUrl": "https://www.3m.com/3M/en_US/p/d/b40066459/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP490",
+    "name": "Scotch-Weld Epoxy Adhesive DP490",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 강인화 에폭시 (Black)",
+    "carrier": "액상 2액형 · 작업시간 90분 · 핸들링 4시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Composite",
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP609",
+    "name": "Scotch-Weld Urethane Adhesive DP609",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 우레탄 (Flexible, Tan)",
+    "carrier": "액상 2액형 · 작업시간 7분 · 핸들링 45분",
+    "thickness": "",
+    "temp": "-40 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Flexible Bonding"
+    ],
+    "substrates": [
+      "Plastic",
+      "Rubber",
+      "Dissimilar Materials"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8005",
+    "name": "Scotch-Weld Structural Plastic Adhesive DP8005",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 LSE 아크릴",
+    "carrier": "액상 2액형 · 작업시간 3분 · 핸들링 3시간",
+    "thickness": "",
+    "temp": "-29 ~ 66°C",
+    "industries": [],
+    "applications": [
+      "LSE Plastic Bonding"
+    ],
+    "substrates": [
+      "PP",
+      "PE",
+      "TPO"
+    ],
+    "alternatives": [
+      "3M DP8010"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8010",
+    "name": "Scotch-Weld Structural Plastic Adhesive DP8010",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 LSE 아크릴 (Blue)",
+    "carrier": "액상 2액형 · 작업시간 10분 · 핸들링 1시간",
+    "thickness": "",
+    "temp": "-29 ~ 66°C",
+    "industries": [],
+    "applications": [
+      "LSE Plastic Bonding"
+    ],
+    "substrates": [
+      "PP",
+      "PE",
+      "LSE Plastics"
+    ],
+    "alternatives": [
+      "3M DP8005"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8405NS",
+    "name": "Scotch-Weld Acrylic Adhesive DP8405NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 MMA 아크릴 (Green)",
+    "carrier": "액상 2액형 · 작업시간 5분 · 핸들링 15분",
+    "thickness": "",
+    "temp": "-29 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Impact Resistant Bonding",
+      "Plastic Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic",
+      "Painted Surface"
+    ],
+    "alternatives": [
+      "3M DP8410NS"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8410NS",
+    "name": "Scotch-Weld Acrylic Adhesive DP8410NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 MMA 아크릴 (Green)",
+    "carrier": "액상 2액형 · 작업시간 10분 · 핸들링 25분",
+    "thickness": "",
+    "temp": "-29 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Impact Resistant Bonding",
+      "Plastic Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic",
+      "Composite"
+    ],
+    "alternatives": [
+      "3M DP8405NS"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8805NS",
+    "name": "Scotch-Weld Low Odor Acrylic Adhesive DP8805NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 저취 아크릴 (Green)",
+    "carrier": "액상 2액형 · 작업시간 5분 · 핸들링 10분",
+    "thickness": "",
+    "temp": "-29 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic"
+    ],
+    "alternatives": [
+      "3M DP8810NS",
+      "3M DP8825NS"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8810NS",
+    "name": "Scotch-Weld Low Odor Acrylic Adhesive DP8810NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 저취 아크릴 (Green)",
+    "carrier": "액상 2액형 · 작업시간 10분 · 핸들링 20분",
+    "thickness": "",
+    "temp": "-29 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic",
+      "Composite"
+    ],
+    "alternatives": [
+      "3M DP8805NS",
+      "3M DP8825NS"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "DP8825NS",
+    "name": "Scotch-Weld Low Odor Acrylic Adhesive DP8825NS",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 저취 아크릴 (Green)",
+    "carrier": "액상 2액형 · 작업시간 25분 · 핸들링 50분",
+    "thickness": "",
+    "temp": "-29 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic"
+    ],
+    "alternatives": [
+      "3M DP8805NS",
+      "3M DP8810NS"
+    ],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "3M",
+    "code": "7240FR",
+    "name": "Scotch-Weld Epoxy Adhesive 7240 FR",
+    "category": "Structural Adhesive",
+    "adhesive": "2액형 강인화 에폭시 (난연, Black)",
+    "carrier": "액상 2액형 · 작업시간 45분 · 핸들링 6시간",
+    "thickness": "",
+    "temp": "-55 ~ 82°C",
+    "industries": [],
+    "applications": [
+      "Structural Bonding",
+      "Flame Retardant"
+    ],
+    "substrates": [
+      "Metal",
+      "Composite"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "3M Structural Adhesives Product Selection Guide",
+    "sourceUrl": "https://multimedia.3m.com/mws/media/1694887O/structural-adhesives-brochure-interactive.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4967",
+    "name": "tesa 4967 (Team 4965 Thin)",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.16mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Signage",
+      "Splicing",
+      "Trims and Profiles"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "tesa 4965"
+    ],
+    "img": "https://www.tesa.com/en-us/files/images/202402/3/medium-11174276,11174276_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4980",
+    "name": "tesa 4980",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.08mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Nameplate Bonding",
+      "Light Signs"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/3/medium-11174276,11174276_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4982",
+    "name": "tesa 4982",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.10mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Electronics Component Mounting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/3/medium-11174276,11174276_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4983",
+    "name": "tesa 4983",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.03mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Small Electronics Components"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/3/medium-11174276,11174276_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4985",
+    "name": "tesa 4985",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "Fiber reinforced (transfer type)",
+    "thickness": "0.05mm",
+    "temp": "장기 80°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Poster/Photo Mounting",
+      "Paper Splicing"
+    ],
+    "substrates": [
+      "Paper",
+      "Fabric"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11175301,11175301_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4987",
+    "name": "tesa 4987",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "Non-woven",
+    "thickness": "0.125mm",
+    "temp": "장기 80°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Furniture Parts",
+      "Foam/Rubber Lamination"
+    ],
+    "substrates": [
+      "Foam",
+      "Rubber"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11174202,11174202_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "51960",
+    "name": "tesa 51960",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic / pure acrylic",
+    "carrier": "PP film reinforced fabric",
+    "thickness": "0.25mm",
+    "temp": "장기 60°C / 단기 120°C",
+    "industries": [],
+    "applications": [
+      "Floor Laying"
+    ],
+    "substrates": [
+      "PVC"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174993,11174993_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "51965",
+    "name": "tesa 51965",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.205mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Lens Mounting",
+      "Foam Mounting",
+      "Mirror Mounting"
+    ],
+    "substrates": [
+      "ABS",
+      "Aluminum",
+      "PC",
+      "PE",
+      "PET",
+      "PP",
+      "PS",
+      "PVC",
+      "Steel"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11174622,11174622_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 51965",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-51965.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "51970",
+    "name": "tesa 51970",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PP",
+    "thickness": "0.22mm",
+    "temp": "장기 60°C / 단기 120°C",
+    "industries": [],
+    "applications": [
+      "Decorative Components",
+      "Display",
+      "Sign Mounting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202410/2/medium-11642014,11642014_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "51972",
+    "name": "tesa 51972",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PET",
+    "thickness": "0.048mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Badge/Sign Mounting",
+      "Reflection Foil Fixing",
+      "Film Splicing"
+    ],
+    "substrates": [
+      "ABS",
+      "Aluminum",
+      "PC",
+      "PE",
+      "PET",
+      "PP",
+      "PS",
+      "PVC",
+      "Steel"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11174622,11174622_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 51972",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-51972.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4964",
+    "name": "tesa 4964",
+    "category": "Double Sided Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Cloth",
+    "thickness": "0.39mm",
+    "temp": "장기 30°C / 단기 110°C",
+    "industries": [],
+    "applications": [
+      "Leather Bonding",
+      "PVC Bonding"
+    ],
+    "substrates": [
+      "Leather",
+      "PVC",
+      "Aluminum"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/3/medium-11175438,11175438_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4968",
+    "name": "tesa 4968",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PVC",
+    "thickness": "0.295mm",
+    "temp": "장기 60°C / 단기 70°C",
+    "industries": [],
+    "applications": [
+      "Mirror Mounting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-gb/files/images/202402/2/medium-11175364,11175364_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "64620",
+    "name": "tesa 64620",
+    "category": "Double Sided Tape",
+    "adhesive": "Synthetic rubber",
+    "carrier": "PP",
+    "thickness": "0.185mm",
+    "temp": "장기 40°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Furniture Components",
+      "Magnet Lamination"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11173694,11173694_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "64621",
+    "name": "tesa 64621",
+    "category": "Double Sided Tape",
+    "adhesive": "Synthetic rubber",
+    "carrier": "PP",
+    "thickness": "0.09mm",
+    "temp": "장기 40°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Decorative Trim",
+      "Paper/Cloth Bonding"
+    ],
+    "substrates": [
+      "Metal",
+      "Cloth",
+      "Paper"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174219,11174219_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "64624",
+    "name": "tesa 64624",
+    "category": "Double Sided Tape",
+    "adhesive": "Synthetic rubber",
+    "carrier": "PP",
+    "thickness": "0.17mm",
+    "temp": "장기 40°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Temporary Fixing"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11173986,11173986_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "64662",
+    "name": "tesa 64662 (Cloth Tape, 단면)",
+    "category": "Cloth Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "PE laminated cloth",
+    "thickness": "0.23mm",
+    "temp": "단기(30분) 93°C",
+    "industries": [],
+    "applications": [
+      "Patching",
+      "Packaging",
+      "Sealing",
+      "Bundling"
+    ],
+    "substrates": [
+      "Steel"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "tesa 제품페이지 64662",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-64662.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "68644",
+    "name": "tesa 68644",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "Non-woven",
+    "thickness": "0.10mm",
+    "temp": "장기 80°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Plastic/Metal Mounting"
+    ],
+    "substrates": [
+      "Plastic",
+      "Metal"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174922,11174922_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "68645",
+    "name": "tesa 68645",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "Non-woven",
+    "thickness": "0.12mm",
+    "temp": "장기 80°C / 단기 150°C",
+    "industries": [],
+    "applications": [
+      "Deco Panel Mounting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174922,11174922_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "68646",
+    "name": "tesa 68646",
+    "category": "Double Sided Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "Non-woven",
+    "thickness": "0.14mm",
+    "temp": "장기 80°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Electronics Component Mounting",
+      "Nameplate Bonding",
+      "Foam/Felt Lamination"
+    ],
+    "substrates": [
+      "ABS",
+      "Glass",
+      "PC",
+      "PE",
+      "Steel"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174922,11174922_fixedwidth_6.jpg",
+    "source": "tesa Product Information 68646",
+    "sourceUrl": "https://www.tesa.com/en-us/files/download/2611217,9,68646-inpiw-en-tt.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "62932",
+    "name": "tesa 62932",
+    "category": "Foam Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PE/EVA foam",
+    "thickness": "0.5mm",
+    "temp": "장기 80°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Decorative Panels"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/3/medium-11174964,11174964_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "62934",
+    "name": "tesa 62934",
+    "category": "Foam Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PE foam",
+    "thickness": "0.8mm",
+    "temp": "장기 80°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Decorative Profiles (White/Brown Goods)"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/4/medium-11172421,11172421_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "62936",
+    "name": "tesa 62936",
+    "category": "Foam Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PE foam",
+    "thickness": "1.6mm",
+    "temp": "장기 80°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Decorative Profiles"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11175476,11175476_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "62626",
+    "name": "tesa 62626",
+    "category": "Foam Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PE foam",
+    "thickness": "0.3mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Touch Panel Mounting",
+      "Lens Mounting",
+      "LCD Cover Mounting"
+    ],
+    "substrates": [
+      "ABS",
+      "Aluminum",
+      "Glass",
+      "PC",
+      "PMMA",
+      "Steel"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11173921,11173921_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 62626",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-62626.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "62508",
+    "name": "tesa 62508",
+    "category": "Foam Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PE foam",
+    "thickness": "0.8mm",
+    "temp": "장기 80°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Solar Frame Mounting",
+      "Trim Mounting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/3/medium-11174723,11174723_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "62510",
+    "name": "tesa 62510",
+    "category": "Foam Tape",
+    "adhesive": "Tackified acrylic",
+    "carrier": "PE foam",
+    "thickness": "1.0mm",
+    "temp": "장기 80°C / 단기 80°C",
+    "industries": [],
+    "applications": [
+      "Solar Frame Mounting",
+      "Trim Mounting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/3/medium-11174723,11174723_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 7074",
+    "name": "tesa ACXplus 7074",
+    "category": "Foam Tape",
+    "adhesive": "Pure acrylic",
+    "carrier": "Foamed acrylic",
+    "thickness": "1.0mm",
+    "temp": "장기 120°C / 단기 220°C",
+    "industries": [],
+    "applications": [
+      "Stiffener Bonding",
+      "Wall Cladding"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 7054",
+    "name": "tesa ACXplus 7054",
+    "category": "Foam Tape",
+    "adhesive": "Pure acrylic",
+    "carrier": "Solid acrylic (transparent)",
+    "thickness": "0.5mm",
+    "temp": "장기 100°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Transparent Bonding",
+      "Outdoor Mounting"
+    ],
+    "substrates": [
+      "Glass"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11171243,11171243_fixedwidth_6.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 7063",
+    "name": "tesa ACXplus 7063",
+    "category": "Foam Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "Foamed acrylic",
+    "thickness": "0.8mm",
+    "temp": "장기 70°C / 단기 170°C",
+    "industries": [],
+    "applications": [
+      "Bumper Rail Mounting",
+      "Powder Coat Bonding"
+    ],
+    "substrates": [
+      "Powder Coat"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 7042",
+    "name": "tesa ACXplus 7042",
+    "category": "Foam Tape",
+    "adhesive": "Pure acrylic",
+    "carrier": "Foamed acrylic",
+    "thickness": "0.5mm",
+    "temp": "장기 110°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Decorative Element Bonding"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 77805",
+    "name": "tesa ACXplus 77805 Primerless Line",
+    "category": "Foam Tape",
+    "adhesive": "LSE acrylic",
+    "carrier": "Foamed acrylic (gray)",
+    "thickness": "0.5mm",
+    "temp": "-40 ~ 80°C (단기 120°C)",
+    "industries": [],
+    "applications": [
+      "Automotive Exterior Trim",
+      "Emblem",
+      "Spoiler"
+    ],
+    "substrates": [
+      "PP",
+      "ABS",
+      "Steel",
+      "Clear Coat"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa 제품페이지 ACXplus 77805",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-acxplus-77805-primerless-line.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 77208",
+    "name": "tesa ACXplus 77208 Base Line",
+    "category": "Foam Tape",
+    "adhesive": "Pure acrylic",
+    "carrier": "Foamed acrylic (gray)",
+    "thickness": "0.8mm",
+    "temp": "-40 ~ 80°C",
+    "industries": [],
+    "applications": [
+      "Automotive Exterior Trim",
+      "Emblem",
+      "Spoiler"
+    ],
+    "substrates": [
+      "ABS",
+      "Steel"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa 제품페이지 ACXplus 77208",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-acxplus-77208-base-line.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 68105",
+    "name": "tesa 68105 (Transfer Tape)",
+    "category": "Transfer Tape",
+    "adhesive": "Pure acrylic",
+    "carrier": "Transfer (no carrier)",
+    "thickness": "0.05mm",
+    "temp": "장기 150°C / 단기 200°C",
+    "industries": [],
+    "applications": [
+      "Overlay Lamination",
+      "Nameplate Bonding"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "tesa Double-Sided Tapes Assortment Overview",
+    "sourceUrl": "https://www.tesa.com/en/files/download/50135,10,tesa-double-sided-tape-folder.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 7812",
+    "name": "tesa ACXplus 7812 Black Line",
+    "category": "Foam Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "Foamed acrylic (black)",
+    "thickness": "1.2mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Automotive Exterior Trim",
+      "Interior Display Mounting"
+    ],
+    "substrates": [
+      "Clear Coat",
+      "ABS",
+      "PC",
+      "PMMA",
+      "Steel"
+    ],
+    "alternatives": [
+      "tesa ACXplus 7815"
+    ],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa 제품페이지 ACXplus 7812",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-acxplus-7812-black-line.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "ACXplus 7815",
+    "name": "tesa ACXplus 7815 Black Line",
+    "category": "Foam Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "Acrylic foam (black)",
+    "thickness": "1.5mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Automotive Exterior Trim",
+      "Emblem"
+    ],
+    "substrates": [
+      "Clear Coat",
+      "ABS",
+      "PC",
+      "PMMA",
+      "Steel"
+    ],
+    "alternatives": [
+      "tesa ACXplus 7812"
+    ],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/751be1effb941.jpg",
+    "source": "tesa 제품페이지 ACXplus 7815",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-acxplus-7815-black-line.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4313",
+    "name": "tesa 4313 (Paper Packaging Tape)",
+    "category": "Packaging Tape",
+    "adhesive": "Synthetic rubber",
+    "carrier": "Paper",
+    "thickness": "0.107mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Carton Sealing"
+    ],
+    "substrates": [
+      "Cardboard"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202405/2/medium-11408657,11408657_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4313",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-4313-pv0.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4317",
+    "name": "tesa 4317",
+    "category": "Masking Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Fine crepe paper",
+    "thickness": "0.14mm",
+    "temp": "오븐 건조 80°C",
+    "industries": [],
+    "applications": [
+      "Spray Paint Masking"
+    ],
+    "substrates": [
+      "Metal",
+      "Rubber",
+      "Glass",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11172321,11172321_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4317",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-4317.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4323",
+    "name": "tesa 4323",
+    "category": "Masking Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Slightly creped paper",
+    "thickness": "0.125mm",
+    "temp": "60°C 60분 / 80°C 30분",
+    "industries": [],
+    "applications": [
+      "General Masking",
+      "Light Spray Painting"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11175940,11175940_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4323",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-4323.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4334",
+    "name": "tesa 4334 Precision Mask",
+    "category": "Masking Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Japanese washi paper",
+    "thickness": "0.09mm",
+    "temp": "120°C 1시간 / 150°C 30분",
+    "industries": [],
+    "applications": [
+      "Precision Masking",
+      "2-tone Masking"
+    ],
+    "substrates": [
+      "Glass",
+      "Aluminum",
+      "PVC"
+    ],
+    "alternatives": [],
+    "img": "https://cdn.imweb.me/thumbnail/20260526/66b00679471ae.jpg",
+    "source": "tesa 제품페이지 4334",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-4334-precision-mask.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4338",
+    "name": "tesa 4338",
+    "category": "Masking Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Slightly creped paper",
+    "thickness": "0.145mm",
+    "temp": "120°C 60분",
+    "industries": [],
+    "applications": [
+      "Paint Masking (oven drying)"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11172654,11172654_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4338",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-4338.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4341",
+    "name": "tesa 4341",
+    "category": "Masking Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Slightly creped paper",
+    "thickness": "0.19mm",
+    "temp": "140°C 60분 / 160°C 30분",
+    "industries": [],
+    "applications": [
+      "High Temp Masking",
+      "Vehicle Painting"
+    ],
+    "substrates": [
+      "Metal",
+      "Rubber",
+      "Glass",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11172365,11172365_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4341",
+    "sourceUrl": "https://www.tesa.com/en/craftsmen/tesa-4341.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4434",
+    "name": "tesa 4434",
+    "category": "Masking Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Flat paper",
+    "thickness": "0.67mm",
+    "temp": "120°C 30분",
+    "industries": [],
+    "applications": [
+      "Car Part Protection",
+      "Sandblasting Stencil"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11175804,11175804_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4434",
+    "sourceUrl": "https://www.tesa.com/en/craftsmen/tesa-4434.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4443",
+    "name": "tesa 4443",
+    "category": "Masking Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Flat paper",
+    "thickness": "0.33mm",
+    "temp": "100°C 60분",
+    "industries": [],
+    "applications": [
+      "Sandblasting Stencil"
+    ],
+    "substrates": [
+      "Glass",
+      "Mirror",
+      "Stone"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174822,11174822_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4443",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-4443.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4445",
+    "name": "tesa 4445 (Repulpable Splicing Tape)",
+    "category": "Splicing Tape",
+    "adhesive": "Water-soluble acrylic",
+    "carrier": "Flat-back paper",
+    "thickness": "0.19mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Paper Splicing",
+      "End Tabbing"
+    ],
+    "substrates": [
+      "Paper"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11171377,11171377_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4445",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-4445.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "4848",
+    "name": "tesa 4848 (Surface Protection Film)",
+    "category": "Surface Protection Film",
+    "adhesive": "Acrylic",
+    "carrier": "PE film",
+    "thickness": "0.048mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Surface Protection",
+      "Glass Masking"
+    ],
+    "substrates": [
+      "Glass",
+      "Anodized Aluminum",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11167209,11167209_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 4848",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-4848-pv1.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "50530",
+    "name": "tesa Bodyguard 50530",
+    "category": "Surface Protection Film",
+    "adhesive": "EVA",
+    "carrier": "Polyolefin film",
+    "thickness": "0.079mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Painted Surface Protection"
+    ],
+    "substrates": [
+      "Painted Metal"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-sg/files/images/202402/2/medium-11174197,11174197_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 50530",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-bodyguard-50530-pv3.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "50600",
+    "name": "tesa 50600",
+    "category": "Masking Tape",
+    "adhesive": "Silicone",
+    "carrier": "PET",
+    "thickness": "0.08mm",
+    "temp": "220°C 30분",
+    "industries": [],
+    "applications": [
+      "Powder Coating Masking"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11174618,11174618_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 50600",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-50600-standard.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "50650",
+    "name": "tesa 50650 Conformable",
+    "category": "Masking Tape",
+    "adhesive": "Silicone",
+    "carrier": "PET",
+    "thickness": "0.055mm",
+    "temp": "220°C 30분",
+    "industries": [],
+    "applications": [
+      "Powder Coating Masking",
+      "Surface Protection"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en-us/files/images/202402/2/medium-11175302,11175302_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 50650",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-50650-conformable.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "51408",
+    "name": "tesa 51408 (Polyimide Tape)",
+    "category": "Polyimide Tape",
+    "adhesive": "Silicone",
+    "carrier": "Polyimide",
+    "thickness": "0.065mm",
+    "temp": "연속 260°C",
+    "industries": [],
+    "applications": [
+      "High Temp Masking",
+      "Wave Soldering",
+      "Electrical Insulation"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11174968,11174968_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 51408",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-51408.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "53988",
+    "name": "tesa 53988 (PVC Electrical Tape)",
+    "category": "Electrical Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Soft PVC",
+    "thickness": "0.15mm",
+    "temp": "최대 90°C",
+    "industries": [],
+    "applications": [
+      "Electrical Insulation",
+      "Wire Marking",
+      "Bundling"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "tesa Product Information 53988",
+    "sourceUrl": "https://www.tesa.com/en-sg/files/download/11224996,3,medium-11224996.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "60400",
+    "name": "tesa 60400 (Bio-based Packaging Tape)",
+    "category": "Packaging Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "PLA film",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Carton Sealing"
+    ],
+    "substrates": [
+      "Cardboard"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11171027,11171027_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 60400",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-60400.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "60404",
+    "name": "tesa 60404 (PVC Packaging Tape)",
+    "category": "Packaging Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "PVC film",
+    "thickness": "0.067mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Carton Sealing",
+      "Marking",
+      "Paint Masking"
+    ],
+    "substrates": [
+      "Cardboard"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11172957,11172957_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 60404",
+    "sourceUrl": "https://www.tesa.com/en-us/industry/tesa-60404-colored.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "60408",
+    "name": "tesa 60408 (Paper Packaging Tape)",
+    "category": "Packaging Tape",
+    "adhesive": "Natural rubber",
+    "carrier": "Paper",
+    "thickness": "0.125mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Carton Sealing"
+    ],
+    "substrates": [
+      "Cardboard"
+    ],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11171016,11171016_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 60408",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-60408-bio-based-paper-packaging-tape.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "tesa",
+    "code": "64284",
+    "name": "tesa 64284 (Strapping Tape)",
+    "category": "Strapping Tape",
+    "adhesive": "Synthetic rubber",
+    "carrier": "MOPP",
+    "thickness": "0.115mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Appliance Parts Holding",
+      "Bundling"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://www.tesa.com/en/files/images/202402/2/medium-11175879,11175879_fixedwidth_6.jpg",
+    "source": "tesa 제품페이지 64284",
+    "sourceUrl": "https://www.tesa.com/en/industry/tesa-64284.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5000N",
+    "name": "No.5000N(C) Double-coated Adhesive Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.16mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Bonding of metal plates, plastic plates and foam",
+      "Applications that require re-peeling"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "PP",
+      "ABS",
+      "Acrylic",
+      "PS",
+      "PC",
+      "PVC",
+      "PET",
+      "Glass",
+      "Urethane foam"
+    ],
+    "alternatives": [
+      "Nitto No.5000NCB",
+      "Nitto 5000NS",
+      "Nitto No.5000E"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_008_img_No.5000NSphoto_L.jpg",
+    "source": "Nitto 데이터시트 No.5000N(C)/No.5000NCB (nitto.cn)",
+    "sourceUrl": "https://www.nitto.cn/cn/zhc/others/products/group/file/datasheet/NJ_No.5000NC_No.5000NCB_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "500",
+    "name": "No.500 Double Sided Tape (general purpose)",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.17mm",
+    "temp": "",
+    "industries": [
+      "Automotive",
+      "Home Appliances"
+    ],
+    "applications": [
+      "Bonding punched metal nameplates",
+      "Bonding ABS decorative panels",
+      "Fixing plastic display panel",
+      "Automobile meter panels",
+      "Air-conditioners and household appliances",
+      "Rubber footing materials"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "ABS",
+      "Acrylic",
+      "PC/ABS",
+      "PS",
+      "PC",
+      "Rigid PVC",
+      "PET",
+      "Glass",
+      "PP",
+      "Polyacetal"
+    ],
+    "alternatives": [
+      "Nitto No.500AB"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_004_img_No.500photo_L.jpg",
+    "source": "Nitto 데이터시트 No.500/500A/500AB / 제품페이지 double/004",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_No.500_No500A_No500AB_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5015T",
+    "name": "5015T / 5015TP Double Coated Tape (baseless)",
+    "category": "Double Sided Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "None (baseless / carrier-free)",
+    "thickness": "0.080mm",
+    "temp": "단기 내열 130°C(SAFT), 정하중 시 최저 -20°C",
+    "industries": [
+      "Automotive",
+      "Electronics",
+      "Home Appliances"
+    ],
+    "applications": [
+      "Mounting and bonding on a variety of substrates",
+      "Foam Lamination",
+      "Bonding foams and plastics, including low surface energy plastics"
+    ],
+    "substrates": [
+      "Steel",
+      "ABS",
+      "PP",
+      "Low surface energy plastics"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto(Belgium) 데이터시트 5015T/5015TP",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NBE_5015T_5015TP_ENG.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5015P",
+    "name": "5015P Double Coated Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Modified acrylic",
+    "carrier": "PET film (0.012mm, transparent)",
+    "thickness": "0.100mm",
+    "temp": "단기 내열 135°C(SAFT), 정하중 시 최저 -20°C",
+    "industries": [],
+    "applications": [
+      "Bonding graphic overlays",
+      "Bonding plastic plates and molded parts",
+      "Bonding low surface energy materials",
+      "Foam and mesh mounting"
+    ],
+    "substrates": [
+      "Steel",
+      "ABS",
+      "PP",
+      "Low surface energy materials"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto(Belgium) 데이터시트 5015P / 제품페이지 double/082",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NBE_5015P_ENG.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "510",
+    "name": "No.510 Low-VOC Double-coated Adhesive Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Solvent-free acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.15mm",
+    "temp": "",
+    "industries": [
+      "Automotive",
+      "Home Appliances",
+      "Office Equipment"
+    ],
+    "applications": [
+      "Fixing of metal nameplates to home appliances",
+      "Fixing of plastic labels",
+      "Bonding of film and paper",
+      "Automobile interior",
+      "OA equipment"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Acrylic",
+      "ABS",
+      "PP",
+      "HIPS",
+      "PS",
+      "PET film",
+      "POM",
+      "PC",
+      "Plywood",
+      "Glass"
+    ],
+    "alternatives": [
+      "Nitto 512",
+      "Nitto 515"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_027_img_No.510photo_L.jpg",
+    "source": "Nitto 데이터시트 No.510 / 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_No.510_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "512",
+    "name": "No.512 Low-VOC Double-coated Adhesive Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Solvent-free acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.15mm",
+    "temp": "",
+    "industries": [
+      "Automotive",
+      "Home Appliances"
+    ],
+    "applications": [
+      "Bonding and fixing of foam materials",
+      "Fixing of plastic display plates",
+      "Bonding films or paper",
+      "Automobile interior",
+      "Home electrical appliances"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Acrylic",
+      "ABS",
+      "PP",
+      "PS",
+      "Soft PVC",
+      "Glass",
+      "PE foam",
+      "Urethane foam",
+      "Phenol resin"
+    ],
+    "alternatives": [
+      "Nitto 510",
+      "Nitto 515"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_166_img_No.512%28M%29_photo_L.jpg",
+    "source": "Nitto 데이터시트 No.512 / 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_No.512_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "513",
+    "name": "No.513 Double Sided Tape for Fixing Printing Plates",
+    "category": "Double Sided Tape",
+    "adhesive": "Rubber",
+    "carrier": "Japanese paper",
+    "thickness": "0.13mm",
+    "temp": "",
+    "industries": [
+      "Printing"
+    ],
+    "applications": [
+      "Fixing of metal or rubber printing plates",
+      "Fixing plastic printing plates"
+    ],
+    "substrates": [
+      "Metal printing plates",
+      "Rubber printing plates",
+      "Plastic printing plates"
+    ],
+    "alternatives": [],
+    "img": "https://form.nitto.com/jp/en/Images/double_030_img_No.513photo_L.jpg",
+    "source": "Nitto 제품페이지 No.513(Japan English) / 양면테이프 카탈로그",
+    "sourceUrl": "https://form.nitto.com/jp/en/products/double/030/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "515",
+    "name": "No.515 Low-VOC, Solvent-free, Thick Double Sided Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Solvent-free acrylic",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.25mm",
+    "temp": "",
+    "industries": [
+      "Automotive",
+      "Office Equipment"
+    ],
+    "applications": [
+      "Fixing backup materials for interior fixtures",
+      "Metal display panel attachment",
+      "Plastic display panel mounting",
+      "Automobile and OA equipment bonding"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Acrylic",
+      "PS",
+      "Lauan wood"
+    ],
+    "alternatives": [
+      "Nitto 510",
+      "Nitto 512"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_039_img_No.515photo_L.jpg",
+    "source": "Nitto 제품페이지 No.515 / 카탈로그",
+    "sourceUrl": "https://nitto.com/us/en/products/group/double/039",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5302A",
+    "name": "No.5302A Double Sided Tape for Adhesion to Silicone Rubber",
+    "category": "Double Sided Tape",
+    "adhesive": "Silicone (side 1) / Acrylic (side 2)",
+    "carrier": "PET film",
+    "thickness": "0.085mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Bonding silicone rubber"
+    ],
+    "substrates": [
+      "Silicone Rubber",
+      "Metal sheets",
+      "Plastic sheets",
+      "Stainless Steel"
+    ],
+    "alternatives": [],
+    "img": "https://www.nitto.com/us/en/Images/double_014_img_No.5302Aphoto_L.jpg",
+    "source": "Nitto 제품페이지 No.5302A / 데이터시트 NJ_No5302A_EN",
+    "sourceUrl": "https://www.nitto.com/us/en/products/double/014/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5600",
+    "name": "No.5600 Ultra-thin PET-based Double-coated Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "PET film",
+    "thickness": "0.005mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of various sheets and film materials inside LCD backlight modules of smartphones",
+      "Bonding in limited space",
+      "Heat-release sheets"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 5601",
+      "Nitto 5603",
+      "Nitto 5605",
+      "Nitto 5606"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_053_img_No.5600photo_L.jpg",
+    "source": "Nitto 제품페이지 No.5600 / 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/products/double/053/index.jsp",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5601",
+    "name": "No.5601 Thin PET-based Double-coated Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "PET film",
+    "thickness": "0.01mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of reflectors and films used for LCD backlight modules for devices such as mobile phones",
+      "Fixing of film materials inside small electronic equipment"
+    ],
+    "substrates": [
+      "Stainless Steel"
+    ],
+    "alternatives": [
+      "Nitto 5600",
+      "Nitto 5603",
+      "Nitto 5605",
+      "Nitto 5606"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_037_img_No.5601.No5603photo_L.jpg",
+    "source": "Nitto 제품페이지 No.5601/No.5603 / 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/products/double/037/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5603",
+    "name": "No.5603 Thin PET-based Double-coated Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "PET film",
+    "thickness": "0.03mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of reflectors and films used for LCD backlight modules for devices such as mobile phones",
+      "Fixing of film materials inside small electronic equipment"
+    ],
+    "substrates": [
+      "Stainless Steel"
+    ],
+    "alternatives": [
+      "Nitto 5600",
+      "Nitto 5601",
+      "Nitto 5605",
+      "Nitto 5606"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_037_img_No.5601.No5603photo_L.jpg",
+    "source": "Nitto 제품페이지 No.5601/No.5603 / 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/products/double/037/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5605",
+    "name": "No.5605 PET-based Double-coated Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "PET film",
+    "thickness": "0.05mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of sheets around LCDs and backlight module components",
+      "Fixing of FPC for LCDs"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 5600",
+      "Nitto 5601",
+      "Nitto 5603",
+      "Nitto 5606"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_042_img_No.5605.No.5606.No.5608.No.5610.No.5612.No.5615photo_L.jpg",
+    "source": "Nitto 제품페이지 No.5605~5615 / 카탈로그",
+    "sourceUrl": "https://form.nitto.com/us/en/products/double/042/index.jsp",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "5606",
+    "name": "No.5606 PET-based Double-coated Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "PET film",
+    "thickness": "0.06mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of sheets around LCDs and backlight module components",
+      "Fixing of FPC for LCDs"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 5600",
+      "Nitto 5601",
+      "Nitto 5603",
+      "Nitto 5605"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_042_img_No.5605.No.5606.No.5608.No.5610.No.5612.No.5615photo_L.jpg",
+    "source": "Nitto 제품페이지 No.5605~5615 / 카탈로그",
+    "sourceUrl": "https://form.nitto.com/us/en/products/double/042/index.jsp",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "57115B",
+    "name": "No.57115B Foam-based Waterproof Double-coated Tape",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Polyolefin foam (black)",
+    "thickness": "0.15mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of mobile phone display panels",
+      "Fixing of electronic components",
+      "Waterproof fixing"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 57120B",
+      "Nitto 57125B"
+    ],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 양면테이프 카탈로그(Double_Sided_Tape_en.pdf)",
+    "sourceUrl": "https://www.nitto.com/us/en/others/faq/products/documents/file/Double_Sided_Tape_en.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "57120B",
+    "name": "No.57120B Foam-based Waterproof Double-coated Tape",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Polyolefin foam (black)",
+    "thickness": "0.20mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of mobile phone display panels",
+      "Fixing of electronic components",
+      "Waterproof fixing",
+      "Nameplate fixing"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 57115B",
+      "Nitto 57125B"
+    ],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 양면테이프 카탈로그(Double_Sided_Tape_en.pdf)",
+    "sourceUrl": "https://www.nitto.com/us/en/others/faq/products/documents/file/Double_Sided_Tape_en.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "57125B",
+    "name": "No.57125B Foam-based Waterproof Double-coated Tape",
+    "category": "Foam Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Polyolefin foam (black)",
+    "thickness": "0.25mm",
+    "temp": "",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of mobile phone display panels",
+      "Fixing of electronic components",
+      "Waterproof fixing"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 57115B",
+      "Nitto 57120B"
+    ],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 양면테이프 카탈로그(Double_Sided_Tape_en.pdf)",
+    "sourceUrl": "https://www.nitto.com/us/en/others/faq/products/documents/file/Double_Sided_Tape_en.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.31B",
+    "name": "No.31B Polyester Adhesive Tape for Electrical Insulation",
+    "category": "Single Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Polyester film (transparent)",
+    "thickness": "0.051mm / 0.078mm",
+    "temp": "",
+    "industries": [
+      "Electrical"
+    ],
+    "applications": [
+      "Electrical insulation of transformers and coils"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto No.31C"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/polyester_001_img_no31_photo_L.jpg",
+    "source": "Nitto 데이터시트 No.31B / 제품페이지 e_parts/polyester001",
+    "sourceUrl": "https://www.nitto.com/au/en/others/products/group/file/datasheet/NJ_No31B_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.31C",
+    "name": "No.31C Polyester Adhesive Tape for Electrical Insulation (colored)",
+    "category": "Single Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "Polyester film (white, yellow, red, green, blue, black)",
+    "thickness": "0.055mm / 0.081mm",
+    "temp": "",
+    "industries": [
+      "Electrical"
+    ],
+    "applications": [
+      "Electrical insulation of transformers and coils"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto No.31B"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/polyester_001_img_no31_photo_L.jpg",
+    "source": "Nitto 데이터시트 No.31C / 제품페이지 e_parts/polyester001",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_No31C_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.500AB",
+    "name": "No.500AB Double Sided Tape (black adhesive type of No.500)",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic (black)",
+    "carrier": "Nonwoven fabric",
+    "thickness": "0.17mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Bonding punched metal nameplates",
+      "Bonding ABS decorative panels",
+      "Fixing plastic display panel"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto 500"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_004_img_No.500photo_L.jpg",
+    "source": "Nitto 제품페이지 No.500 (변형품 목록) / 데이터시트 NJ_No.500_No500A_No500AB_EN",
+    "sourceUrl": "https://www.nitto.com/us/en/products/double/004/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.5000E",
+    "name": "No.5000E Low-VOC Removable Double-coated Adhesive Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Solvent-free acrylic",
+    "carrier": "High-strength nonwoven fabric",
+    "thickness": "0.16mm",
+    "temp": "",
+    "industries": [
+      "Home Appliances",
+      "Electronics"
+    ],
+    "applications": [
+      "Bonding of metal and plastic plates",
+      "Home Appliances",
+      "Electronic equipment"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic"
+    ],
+    "alternatives": [
+      "Nitto 5000N",
+      "Nitto No.5000NCB",
+      "Nitto 5000NS"
+    ],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 양면테이프 카탈로그(Double_Sided_Tape_en.pdf)",
+    "sourceUrl": "https://www.nitto.com/us/en/others/faq/products/documents/file/Double_Sided_Tape_en.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.5000NCB",
+    "name": "No.5000N(C)B Removable, High-adhesion, Black Double-coated Adhesive Tape",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic (black)",
+    "carrier": "High-strength nonwoven fabric",
+    "thickness": "0.16mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Bonding of metal plates, foams and plastic plates",
+      "Applications that require removal and reapplication of components"
+    ],
+    "substrates": [
+      "Metal",
+      "Foam",
+      "Plastic",
+      "PS",
+      "PP"
+    ],
+    "alternatives": [
+      "Nitto 5000N",
+      "Nitto 5000NS",
+      "Nitto No.5000E"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/double_008_img_No.5000NSphoto_L.jpg",
+    "source": "Nitto 데이터시트 No.5000N(C)/No.5000NCB (nitto.cn) / 카탈로그",
+    "sourceUrl": "https://www.nitto.cn/cn/zhc/others/products/group/file/datasheet/NJ_No.5000NC_No.5000NCB_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.541",
+    "name": "No.541 Double-coated Tape with a Butyl Rubber Foam Carrier",
+    "category": "Foam Tape",
+    "adhesive": "",
+    "carrier": "Butyl rubber foam",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Adhesion in low temperatures and to rough surfaces"
+    ],
+    "substrates": [
+      "Rough surfaces"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 제품페이지 No.541 (Europe) — 페이지 제목 기준",
+    "sourceUrl": "https://www.nitto.com/eu/en/products/double/017/index.jsp",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.5919ML",
+    "name": "No.5919ML Heat Resistant Double-coated Adhesive Tape (no carrier)",
+    "category": "Double Sided Tape",
+    "adhesive": "Acrylic",
+    "carrier": "None (carrier-free)",
+    "thickness": "0.05mm",
+    "temp": "IR 리플로(피크 260°C) 공정 대응",
+    "industries": [
+      "Electronics"
+    ],
+    "applications": [
+      "Fixing of FPC and stiffener or FPC and housings",
+      "Other applications requiring heat resistance",
+      "Use in soldering process without removing the release liner"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Polyimide film",
+      "Glass epoxy",
+      "PET film",
+      "Bakelite"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 데이터시트 No.5919ML",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_NO.5919ML_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.9700UL",
+    "name": "NITOFLON No.9700UL Fluoroplastic Saturated Glass Cloth",
+    "category": "PTFE Glass Cloth (non-adhesive)",
+    "adhesive": "None (non-adhesive)",
+    "carrier": "PTFE-impregnated non-alkali glass cloth",
+    "thickness": "0.08mm / 0.14mm / 0.18mm",
+    "temp": "",
+    "industries": [],
+    "applications": [],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 제품페이지 No.970-2UL/970-4UL/9700UL (Taiwan English)",
+    "sourceUrl": "https://form.nitto.com/tw/en/products/resin/film003/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.973UL-S",
+    "name": "NITOFLON No.973UL-S Fluoroplastic Saturated Glass Cloth Adhesive Tape",
+    "category": "PTFE Tape",
+    "adhesive": "Silicone",
+    "carrier": "PTFE-impregnated glass cloth",
+    "thickness": "0.13mm",
+    "temp": "-60~200°C",
+    "industries": [],
+    "applications": [
+      "Heat-resistant masking",
+      "Heat-sealing",
+      "Heat-resistant electrical insulation",
+      "Chute and hopper linings"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto No.903UL"
+    ],
+    "img": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=900&q=80",
+    "source": "Nitto 데이터시트 No.973UL/973UL-S",
+    "sourceUrl": "https://www.nitto.com/us/en/others/products/file/datasheet/NJ_NO.973UL_973UL-S_EN.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "No.903UL",
+    "name": "NITOFLON No.903UL Fluoroplastic (PTFE) Adhesive Tape",
+    "category": "PTFE Tape",
+    "adhesive": "Silicone",
+    "carrier": "PTFE film (one side surface-treated)",
+    "thickness": "0.08 / 0.13 / 0.18 / 0.23mm",
+    "temp": "-60~200°C",
+    "industries": [],
+    "applications": [
+      "Heat-resistant masking",
+      "Heat-sealing",
+      "Heat-resistant electrical insulation"
+    ],
+    "substrates": [],
+    "alternatives": [
+      "Nitto No.973UL-S"
+    ],
+    "img": "https://www.nitto.com/us/en/Images/tape_001_img_No903UL_photo_L.jpg",
+    "source": "Nitto 제품페이지 NITOFLON No.903UL",
+    "sourceUrl": "https://www.nitto.com/us/en/products/resin/tape001/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "SPV-225",
+    "name": "SPV-225 Metal Surface Protection Film",
+    "category": "Surface Protection Film",
+    "adhesive": "Special acrylic (outdoor use)",
+    "carrier": "PVC film",
+    "thickness": "0.080mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Surface protection for stainless steel plates, aluminum plates and name plates during processing",
+      "Storage of glass and aluminum sashes",
+      "Deep drawing"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Nameplates"
+    ],
+    "alternatives": [],
+    "img": "https://www-origin.nitto.com/sea/en/Images/spv-metal_063_img_SPV-225photo_L.jpg",
+    "source": "Nitto 제품페이지 SPV-225 (Southeast Asia)",
+    "sourceUrl": "https://www-origin.nitto.com/sea/en/products/surface/spv_metal063/index.jsp",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "SPV-363",
+    "name": "SPV-363 Surface Protective Film for Metal Plates",
+    "category": "Surface Protection Film",
+    "adhesive": "Acrylic",
+    "carrier": "Polyethylene film",
+    "thickness": "0.070mm",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Surface protection of stainless steel plates and aluminum plates during transportation and processing"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum"
+    ],
+    "alternatives": [],
+    "img": "https://www.nitto.com/jp/ja/Images/spv_metal_007_img_SPV-363_L.jpg",
+    "source": "Nitto 제품페이지 SPV-363(일본) / 표면보호재 카탈로그",
+    "sourceUrl": "https://www.nitto.com/jp/ja/products/surface/spv_metal007/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "SPV-M-6030",
+    "name": "SPV-M-6030 Surface Protection Film for Aluminum Window Sashes",
+    "category": "Surface Protection Film",
+    "adhesive": "Water-based acrylic (solvent-free)",
+    "carrier": "Polyethylene film",
+    "thickness": "0.060mm",
+    "temp": "",
+    "industries": [
+      "Construction"
+    ],
+    "applications": [
+      "Surface protection for stainless steel plates and aluminum plates during transportation and processing",
+      "Aluminum window sashes"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum"
+    ],
+    "alternatives": [],
+    "img": "https://www.nitto.com/us/en/Images/spv_metal_014_img_SPV-M-6020.M6030_L.jpg",
+    "source": "Nitto 제품페이지 SPV-M-6020/M-6030 / 표면보호재 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/products/surface/spv_metal014/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "Nitto",
+    "code": "SPV-202R",
+    "name": "SPV-202R Surface Protective Film (strong adhesive)",
+    "category": "Surface Protection Film",
+    "adhesive": "Natural rubber",
+    "carrier": "Soft PVC film",
+    "thickness": "0.12mm",
+    "temp": "",
+    "industries": [
+      "Aerospace"
+    ],
+    "applications": [
+      "Surface protection for stainless steel plates, aluminum and polished steel plates during deep drawing and roll forming"
+    ],
+    "substrates": [
+      "Stainless Steel",
+      "Aluminum",
+      "Polished steel"
+    ],
+    "alternatives": [],
+    "img": "https://www.nitto.com/us/en/Images/spv_metal_003_img_SPV-202photo_L.jpg",
+    "source": "Nitto 제품페이지 SPV-202R / 표면보호재 카탈로그",
+    "sourceUrl": "https://www.nitto.com/us/en/products/surface/spv_metal003/",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "403",
+    "name": "LOCTITE 403 Instant Adhesive (Low-bloom, medium-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Alkoxyethyl cyanoacrylate (low odor / low bloom)",
+    "carrier": "초투명 중점도 액상, 약 1,200 mPa·s / 고정시간 약 30초(스틸), 갭 0.2 mm",
+    "thickness": "",
+    "temp": "-40~80°C",
+    "industries": [
+      "산업 유지보수(MRO)",
+      "오일·가스",
+      "발전",
+      "산업 제조",
+      "전동기",
+      "유압·유체기기"
+    ],
+    "applications": [
+      "저취·저백화 외관 중시 접합",
+      "밀착 부품 접합",
+      "금속·엘라스토머·플라스틱 접합"
+    ],
+    "substrates": [
+      "금속",
+      "고무",
+      "플라스틱",
+      "PP·PE·PTFE(SF 770 프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 403",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-403/BP000000153544.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "407",
+    "name": "LOCTITE 407 Instant Adhesive (Low-viscosity, heat-resistant, general purpose)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "투명~담황색 저점도 액상, 약 20~50 mPa·s / 고정시간 5~20초, 갭 0.15 mm",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "소·중형 부품 접합",
+      "금속·플라스틱·고무 접합",
+      "폴리올레핀 접합(SF 770/SF 7239 프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "플라스틱",
+      "고무",
+      "폴리올레핀(프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page (India) / TDS LOCTITE 407",
+    "sourceUrl": "https://next.henkel-adhesives.com/in/en/products/industrial-adhesives/central-pdp.html/loctite-407/SAP_IB-55581.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "408",
+    "name": "LOCTITE 408 Instant Adhesive (Low-bloom, very low-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Alkoxyethyl cyanoacrylate (low odor / low bloom)",
+    "carrier": "초투명 초저점도 액상, 약 4~10 mPa·s / 고정시간 5~10초",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조",
+      "조명"
+    ],
+    "applications": [
+      "밀착 부품 접합",
+      "저취·저백화 외관 중시 접합",
+      "금속·엘라스토머·플라스틱 고속 접합"
+    ],
+    "substrates": [
+      "금속",
+      "엘라스토머",
+      "플라스틱",
+      "PP·PE·PTFE(프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 408",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-408/BP000000153531.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "409",
+    "name": "LOCTITE 409 Instant Adhesive (General purpose gel)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "초투명 겔(수직면 흐름 방지) / 고정시간 20~60초, 갭 0.15 mm",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "넓은 갭·수직면 접합",
+      "금속·엘라스토머·플라스틱 접합"
+    ],
+    "substrates": [
+      "금속",
+      "엘라스토머",
+      "플라스틱",
+      "폴리올레핀(SF 770 프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 409",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-409/BP000000153513.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "411",
+    "name": "LOCTITE 411 Instant Adhesive (Toughened, high-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Toughened ethyl cyanoacrylate",
+    "carrier": "투명 고점도 액상, 약 4,000~8,000 mPa·s / 고정시간 20~50초(스틸)",
+    "thickness": "",
+    "temp": "최대 99°C",
+    "industries": [
+      "산업 제조",
+      "내구소비재"
+    ],
+    "applications": [
+      "범용 갭필링 접합",
+      "충격 하중 부위 접합",
+      "엘라스토머·플라스틱·금속 접합"
+    ],
+    "substrates": [
+      "고무",
+      "플라스틱",
+      "금속"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 411",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-411/BP000000153566.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "414",
+    "name": "LOCTITE 414 Instant Adhesive (General purpose, low-viscosity plastic bonder)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "초투명 저점도 액상, 약 70~110 mPa·s / 고정시간 2~10초",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "플라스틱 접합",
+      "난접착 플라스틱(PP·PE·PTFE) 접합(SF 770 병용)",
+      "금속·엘라스토머·플라스틱 범용 조립"
+    ],
+    "substrates": [
+      "금속",
+      "엘라스토머",
+      "플라스틱"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 414",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-414/BP000000153532.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "415",
+    "name": "LOCTITE 415 Instant Adhesive (General purpose, medium-viscosity metal bonding)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Methyl cyanoacrylate",
+    "carrier": "초투명 중점도 액상, 약 900~1,500 mPa·s / 고정시간 20~40초, 갭 0.15 mm",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "금속 접합",
+      "고무·플라스틱 접합",
+      "난접착 플라스틱(PP·PE·PTFE) 접합(프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "고무",
+      "플라스틱"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 415",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-415/BP000000153533.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "416",
+    "name": "LOCTITE 416 Instant Adhesive (General purpose, medium-viscosity plastic bonder)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "초투명 중점도 액상, 약 900~1,500 mPa·s / 고정시간 20~40초",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조",
+      "스피커"
+    ],
+    "applications": [
+      "플라스틱 접합",
+      "난접착 플라스틱(PP·PE·PTFE) 접합(SF 770 병용)",
+      "고무·금속 범용 조립"
+    ],
+    "substrates": [
+      "플라스틱",
+      "고무",
+      "금속"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 416",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-416/BP000000153534.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "420",
+    "name": "LOCTITE 420 Instant Adhesive (General purpose, very low-viscosity / capillary)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "초투명 초저점도(모세관 침투형) 액상, 약 1~4 mPa·s / 고정시간 5~20초",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "밀착 부품 조립(선조립 후 침투)",
+      "금속·고무·플라스틱 접합",
+      "난접착 플라스틱 접합(프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "고무",
+      "플라스틱"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 420",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-420/BP000000153535.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "4210",
+    "name": "LOCTITE 4210 Instant Adhesive (Toughened, black, heat & humidity resistant)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Rubber-toughened ethyl cyanoacrylate",
+    "carrier": "흑색 액상, 약 110~210 mPa·s / 고정시간 5~360초(소재별, 스틸 90~150초)",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "내충격·내박리 접합",
+      "고온·다습 환경 접합"
+    ],
+    "substrates": [
+      "스틸",
+      "알루미늄",
+      "ABS",
+      "PVC",
+      "폴리카보네이트",
+      "페놀",
+      "멜라민",
+      "폴리에스터",
+      "네오프렌",
+      "니트릴 고무"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel TDS LOCTITE 4210",
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-4210-en_GL.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "424",
+    "name": "LOCTITE 424 Instant Adhesive (Low-viscosity, fast-fixturing, solvent-free)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "투명~담황색 저점도 액상, 약 70~110 mPa·s / 고정시간 2~10초",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "소·중형 부품 접합",
+      "금속·플라스틱·고무 접합",
+      "EPDM 고무 접합",
+      "폴리올레핀 접합(SF 770/SF 7239 프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "플라스틱",
+      "고무",
+      "EPDM",
+      "폴리올레핀(프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page (Austria) / TDS LOCTITE 424",
+    "sourceUrl": "https://next.henkel-adhesives.com/at/en/products/industrial-adhesives/central-pdp.html/loctite-424/SAP_IB-55672.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "425",
+    "name": "LOCTITE 425 (Blue, low-strength threadlocker for plastic fasteners)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Cyanoacrylate (threadlocking)",
+    "carrier": "청색 저점도 액상, 약 40~80 mPa·s / 고정시간 약 90초",
+    "thickness": "",
+    "temp": "-54~85°C",
+    "industries": [
+      "전력",
+      "산업 제조"
+    ],
+    "applications": [
+      "플라스틱·금속 체결구 나사고정(저강도)",
+      "체결구 헤드 변조방지(tamper proofing)"
+    ],
+    "substrates": [
+      "금속 체결구",
+      "플라스틱 체결구"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 425",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-425/BP000000153569.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "435",
+    "name": "LOCTITE 435 Instant Adhesive (Clear, toughened)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Toughened ethyl cyanoacrylate",
+    "carrier": "투명 저점도 액상, 약 200 mPa·s / 고정시간 30~45초(연강)",
+    "thickness": "",
+    "temp": "-40~100°C",
+    "industries": [
+      "산업 유지보수(MRO)",
+      "산업 제조",
+      "전동기",
+      "유압·유체기기",
+      "오일·가스",
+      "발전",
+      "의료기기(ISO 10993)"
+    ],
+    "applications": [
+      "밀착 부품 접합",
+      "고충격·박리 하중 부위 접합"
+    ],
+    "substrates": [
+      "플라스틱",
+      "고무",
+      "금속",
+      "자석",
+      "다공성·흡수성 소재",
+      "산성 표면"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 435",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-435/BP000000204082.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "438",
+    "name": "LOCTITE 438 Instant Adhesive (Black, toughened, low-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Rubber-toughened ethyl cyanoacrylate",
+    "carrier": "흑색 저점도 액상, 약 100~250 mPa·s / 고정시간 10~20초(스틸 30~45초)",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "소·중형 부품 접합",
+      "내충격·유연성 요구 접합",
+      "다습 환경 접합"
+    ],
+    "substrates": [
+      "플라스틱",
+      "고무",
+      "금속",
+      "다공성·흡수성 소재",
+      "산성 표면"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 438",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-438/BP000000204085.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "454",
+    "name": "LOCTITE 454 Instant Adhesive Gel",
+    "category": "Cyanoacrylate",
+    "adhesive": "Cyanoacrylate (surface-insensitive gel)",
+    "carrier": "투명 겔 / 고정시간 약 45초(스틸)",
+    "thickness": "",
+    "temp": "-54~121°C",
+    "industries": [
+      "자동차",
+      "자동차 애프터마켓",
+      "산업 유지보수(MRO)",
+      "산업 제조",
+      "전동기",
+      "유압·유체기기",
+      "재제조"
+    ],
+    "applications": [
+      "수직·천장면 접합",
+      "고속 접합",
+      "긴급 수리",
+      "다공성·산성 소재 접합"
+    ],
+    "substrates": [
+      "금속",
+      "엘라스토머",
+      "플라스틱",
+      "PP·PE·PTFE(프라이머 사용 시)",
+      "목재",
+      "종이",
+      "가죽",
+      "직물",
+      "세라믹"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 454",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-454/BP000000153575.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "460",
+    "name": "LOCTITE 460 Instant Adhesive (Low-bloom, low-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Alkoxyethyl cyanoacrylate (low odor / low bloom)",
+    "carrier": "초투명 저점도 액상, 약 40 mPa·s / 고정시간 약 20초(스틸), 갭 0.12 mm",
+    "thickness": "",
+    "temp": "-40~80°C",
+    "industries": [
+      "산업 유지보수(MRO)",
+      "산업 제조",
+      "전동기",
+      "유압·유체기기",
+      "의료기기"
+    ],
+    "applications": [
+      "밀착 부품 접합",
+      "저취·저백화 외관 중시 접합",
+      "의료기기 조립"
+    ],
+    "substrates": [
+      "금속",
+      "엘라스토머",
+      "플라스틱",
+      "PP·PE·PTFE(SF 770 프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 460",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-460/BP000000153538.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "495",
+    "name": "LOCTITE 495 Instant Adhesive (General purpose, low-viscosity)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "투명 저점도 액상, 약 40 mPa·s / 고정시간 약 5초(스틸), 갭 0.12 mm",
+    "thickness": "",
+    "temp": "-40~120°C",
+    "industries": [
+      "자동차",
+      "자동차 애프터마켓",
+      "산업 유지보수(MRO)",
+      "산업 제조"
+    ],
+    "applications": [
+      "플라스틱 접합",
+      "고무 접합",
+      "수리"
+    ],
+    "substrates": [
+      "엘라스토머",
+      "금속",
+      "플라스틱",
+      "다공성 표면"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 495",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-495/BP000000153540.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "496",
+    "name": "LOCTITE 496 Instant Adhesive (Very low-viscosity metal bonding)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Methyl cyanoacrylate",
+    "carrier": "초투명 저점도 액상, 약 70~120 mPa·s / 고정시간 10~30초, 갭 0.15 mm",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "금속 접합",
+      "밀착 부품 조립",
+      "고무·플라스틱 접합(난접착 플라스틱은 프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "고무",
+      "플라스틱"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 496",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-496/BP000000153541.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "498",
+    "name": "LOCTITE 498 Instant Adhesive (Thermal cycling resistant)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Ethyl cyanoacrylate",
+    "carrier": "담황색 반투명 중점도 액상, 약 400~600 mPa·s / 고정시간 약 50초(스틸 20~30초), 갭 0.18 mm",
+    "thickness": "",
+    "temp": "최대 121°C(간헐)",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "열사이클 환경 접합",
+      "금속·엘라스토머·플라스틱 조립",
+      "난접착 플라스틱(PP·PE·PTFE) 접합(프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "플라스틱",
+      "고무"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 498",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-498/BP000000153506.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "493",
+    "name": "LOCTITE 493 Instant Adhesive (General purpose, very low-viscosity metal bonding)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Methyl cyanoacrylate",
+    "carrier": "초투명 초저점도 액상, 약 1~4 mPa·s / 고정시간 10~30초(스틸 20~40초)",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조",
+      "전기기계"
+    ],
+    "applications": [
+      "금속 접합",
+      "플라스틱·고무 접합",
+      "폴리올레핀 접합(프라이머 병용)"
+    ],
+    "substrates": [
+      "금속",
+      "플라스틱",
+      "고무",
+      "폴리올레핀(프라이머 사용 시)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE 493",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-493/BP000000153539.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "3090",
+    "name": "LOCTITE 3090 Instant Adhesive (2-part, gap filling)",
+    "category": "Cyanoacrylate",
+    "adhesive": "2-part cyanoacrylate",
+    "carrier": "투명 겔(2액형), 최대 5 mm 갭 충전 / 고정시간 약 120초(스틸)",
+    "thickness": "",
+    "temp": "-40~80°C",
+    "industries": [
+      "자동차",
+      "자동차 애프터마켓",
+      "산업 제조"
+    ],
+    "applications": [
+      "최대 5 mm 갭 부품 조립",
+      "잉여 접착제 완전경화 필요 용도",
+      "파손 플라스틱 부품 신속 수리",
+      "긴급 수리"
+    ],
+    "substrates": [
+      "플라스틱",
+      "고무",
+      "금속",
+      "목재",
+      "종이",
+      "가죽",
+      "직물",
+      "기타 다공성 소재"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page (UK) / TDS LOCTITE 3090",
+    "sourceUrl": "https://next.henkel-adhesives.com/uk/en/products/industrial-adhesives/central-pdp.html/loctite-3090/SAP_IB-90706.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "HY 4070",
+    "name": "LOCTITE HY 4070 (General-purpose hybrid structural bonder)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Hybrid cyanoacrylate/acrylic (2-part, 10:1)",
+    "carrier": "2액형 겔, 혼합비 10:1(부피), 갭 최대 5 mm / 고정시간 60초 미만(에칭 알루미늄)",
+    "thickness": "",
+    "temp": "-40~100°C",
+    "industries": [
+      "자동차(OEM·애프터마켓)",
+      "산업 유지보수(MRO)",
+      "산업 제조",
+      "발전",
+      "오일·가스",
+      "전동기",
+      "재제조"
+    ],
+    "applications": [
+      "이종 소재 접합",
+      "플라스틱·고무 접합",
+      "구조 접합",
+      "내장 수리",
+      "갭 충전(최대 5 mm)"
+    ],
+    "substrates": [
+      "금속",
+      "플라스틱",
+      "고무",
+      "복합재",
+      "라미네이트",
+      "목재",
+      "열경화·열가소성 수지",
+      "도장면"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE HY 4070",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-hy-4070/201200004WPN.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "HY 4090",
+    "name": "LOCTITE HY 4090 (Universal structural bonder)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Hybrid cyanoacrylate/epoxy (2-part, 1:1)",
+    "carrier": "2액형 고점도 액상(A 4,000~7,000 / B 25,000~40,000 mPa·s), 혼합비 1:1 / 고정시간 90~180초",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 유지보수(MRO)",
+      "산업 제조"
+    ],
+    "applications": [
+      "이종 소재 접합",
+      "플라스틱·고무 접합",
+      "구조 접합",
+      "엣지 본딩",
+      "내·외장 수리"
+    ],
+    "substrates": [
+      "금속",
+      "복합재",
+      "플라스틱",
+      "고무",
+      "목재",
+      "열경화·열가소성 수지",
+      "도장면"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE HY 4090",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-hy-4090/SAP_IB-107488.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "HY 4060",
+    "name": "LOCTITE HY 4060 GY (Hybrid instant structural adhesive)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Hybrid cyanoacrylate/epoxy (2-part, 1:1)",
+    "carrier": "2액형 고점도(A 흑색 4,000~7,000 / B 백색 25,000~40,000 mPa·s, 혼합 회색), 혼합비 1:1(부피) / 고정시간 180초 미만",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "상온 고속 범용 구조 접합"
+    ],
+    "substrates": [
+      "금속",
+      "대부분의 플라스틱",
+      "고무",
+      "목재",
+      "복합재"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel TDS LOCTITE HY 4060GY (Hungarian)",
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-HY-4060GY-hu_HU.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "HY 4080",
+    "name": "LOCTITE HY 4080 (Fast and powerful bonder for metals, composites and plastics)",
+    "category": "Cyanoacrylate",
+    "adhesive": "Hybrid cyanoacrylate/acrylic (2-part)",
+    "carrier": "2액형 고점도 페이스트(칙소성), 약 9,500 mPa·s, 갭 최대 5 mm / 상온 신속 고정, 1시간 내 작업강도",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "산업 제조"
+    ],
+    "applications": [
+      "금속·복합재·플라스틱 구조 접합",
+      "내충격·박리 하중 부위 접합"
+    ],
+    "substrates": [
+      "알루미늄",
+      "스틸",
+      "복합재",
+      "플라스틱"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page / TDS LOCTITE HY 4080",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-hy-4080/201200004WPL.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9462",
+    "name": "LOCTITE EA 9462",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part toughened epoxy paste",
+    "carrier": "Mix ratio 1:1 by volume; medium viscosity, non-sag; resin white / hardener amber / mixed beige; RT or heat cure",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Structural Bonding"
+    ],
+    "substrates": [
+      "Metals",
+      "Plastics",
+      "Wood"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9462",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9462/575158.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9466",
+    "name": "LOCTITE EA 9466",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part toughened epoxy",
+    "carrier": "Mix ratio 2:1 by volume; work life 60 min; fixture 180 min; resin 15,000-50,000 cP, hardener 25,000-60,000 cP; off-white mixed",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Multi-purpose structural bonding",
+      "Assemblies needing longer open/adjustment time"
+    ],
+    "substrates": [
+      "Metals (steel)",
+      "General industrial substrates"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9466",
+    "sourceUrl": "https://next.henkel-adhesives.com/cz/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9466/SAP_IB-70520.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9480",
+    "name": "LOCTITE EA 9480",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy (medium-speed cure)",
+    "carrier": "Mix ratio 2:1 by volume (100:46.5 wt); pot life 110-190 min; fixture 270 min; resin 7,000-14,000 cP, hardener 3,000-7,500 cP; off-white",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing",
+      "Food processing"
+    ],
+    "applications": [
+      "Food processing & packaging machine part assembly",
+      "Household appliances (mixers, pasta machines, microwave ovens)"
+    ],
+    "substrates": [
+      "Metals",
+      "Most plastics"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9480",
+    "sourceUrl": "https://next.henkel-adhesives.com/nl/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9480/SAP_IB-97327.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9483",
+    "name": "LOCTITE EA 9483",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy (ultra clear)",
+    "carrier": "Mix ratio 2:1 by volume (100:46 wt); work life 25-60 min @22°C (100 g); mixed viscosity 3,000-11,000 cP; ultra clear; full RT cure within 3 days",
+    "thickness": "",
+    "temp": "",
+    "industries": [],
+    "applications": [
+      "Bonding and potting decorative panels and displays requiring optical clarity and high strength"
+    ],
+    "substrates": [
+      "Mild steel (per test data)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9483",
+    "sourceUrl": "https://www.henkel-adhesives.com/tz/en/product/structural-adhesives/loctite_ea_9483.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9492",
+    "name": "LOCTITE EA 9492",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy (high temperature resistant)",
+    "carrier": "Mix ratio 2:1 by volume (100:50 wt); work life 15 min @22°C; fixture 75 min; resin 50,000-120,000 cP, hardener 20,000-50,000 cP; white opaque mixed (resin white / hardener grey)",
+    "thickness": "",
+    "temp": "~180°C",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Bonding",
+      "Repair",
+      "Potting and encapsulating boxes, parts and devices"
+    ],
+    "substrates": [
+      "Various materials"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9492",
+    "sourceUrl": "https://next.henkel-adhesives.com/in/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9492/SAP_IB-56735.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9497",
+    "name": "LOCTITE EA 9497",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part thermally conductive epoxy",
+    "carrier": "Mix ratio 2:1 by volume (100:50 wt); pot life 165-255 min @25°C; resin 5-16 Pa·s, hardener 8-24 Pa·s; resin white / hardener gray; RT, heat or induction cure; thermal conductivity 1.4 W/mK",
+    "thickness": "",
+    "temp": "~200°C",
+    "industries": [
+      "Data and telecommunications",
+      "Power",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Metal sheet bonding for high heat transfer",
+      "Potting electrical components",
+      "SPM/IPM magnet bonding (motors)"
+    ],
+    "substrates": [
+      "Metals",
+      "Electrical components"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9497",
+    "sourceUrl": "https://next.henkel-adhesives.com/cz/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9497/97328IB.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 3430",
+    "name": "LOCTITE EA 3430",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part general purpose epoxy (5-minute type, clear)",
+    "carrier": "Mix ratio 1:1 by volume; work life 7 min; fixture 15 min; ultra clear; RT cure",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "General assembly",
+      "DIY/maintenance",
+      "Clear bond lines for decorative uses",
+      "Gap filling on rough/poorly fitting surfaces"
+    ],
+    "substrates": [
+      "Metal",
+      "Ceramic",
+      "Rigid plastics",
+      "Wood",
+      "Glass"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 3430",
+    "sourceUrl": "https://next.henkel-adhesives.com/sk/en/products/industrial-adhesives/central-pdp.html/loctite-ea-3430/1000396.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 3450",
+    "name": "LOCTITE EA 3450",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part metal-filled epoxy (fast cure)",
+    "carrier": "Mix ratio 1:1 (vol/wt); work life 5 min @25°C; resin 25 Pa·s / hardener 40 Pa·s; silver/grey mixed (resin black, hardener white); full cure 1 week @22°C",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Metal bonding",
+      "Bonding aluminium window frames and GRP panels",
+      "Levelling surface irregularities / metal repair"
+    ],
+    "substrates": [
+      "Metal",
+      "Ceramic",
+      "Rigid plastics",
+      "Wood"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 3450",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-3450/109860IB.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 3471",
+    "name": "LOCTITE EA 3471",
+    "category": "Epoxy Repair Compound",
+    "adhesive": "2-part steel-filled epoxy putty",
+    "carrier": "Mix ratio 1:1 by volume; work life 45 min; fixture 180 min; cures to metal-like finish (grey)",
+    "thickness": "",
+    "temp": "-30~105°C",
+    "industries": [
+      "Maintenance & repair (MRO)",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Rebuilding worn metal parts",
+      "Repairing casting defects",
+      "Jigs and fixtures",
+      "Sealing vessels, tanks, valves",
+      "Filling cavitated areas"
+    ],
+    "substrates": [
+      "All metals",
+      "Castings"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 3471",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-repair-materials/central-pdp.html/loctite-ea-3471/BP000400.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 3475",
+    "name": "LOCTITE EA 3475",
+    "category": "Epoxy Repair Compound",
+    "adhesive": "2-part aluminium-filled epoxy putty",
+    "carrier": "Mix ratio 1:1 by volume; work life 45 min",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Maintenance & repair (MRO)",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Repairing worn shafts, housings, keyways, flanges",
+      "Filling cavities",
+      "Levelling machinery",
+      "Repairing cast plates, core moulds",
+      "Sacrificial coating",
+      "Sealing leaking pipes"
+    ],
+    "substrates": [
+      "Aluminium",
+      "Metal castings"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 3475",
+    "sourceUrl": "https://next.henkel-adhesives.com/hu/en/products/industrial-repair-materials/central-pdp.html/loctite-ea-3475/SAP_IB-55434.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 3421",
+    "name": "LOCTITE EA 3421",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy (slow cure, general purpose)",
+    "carrier": "Mix ratio 1:1 by volume (100:90 wt); work life 240 min @25°C; resin 30,000-90,000 cP, hardener 11,000-19,000 cP; light amber mixed (resin white / hardener amber); RT cure",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Bonding aluminium window frames and FRP panels",
+      "Gap filling assemblies needing long repositioning time"
+    ],
+    "substrates": [
+      "Metals",
+      "Ceramics",
+      "Wood",
+      "Glass",
+      "Rigid plastics"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 3421 (German site)",
+    "sourceUrl": "https://next.henkel-adhesives.com/de/de/products/industrial-adhesives/central-pdp.html/loctite-ea-3421/SAP_IB-55365.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9514",
+    "name": "LOCTITE EA 9514",
+    "category": "Epoxy Adhesive",
+    "adhesive": "1-part heat-cure epoxy",
+    "carrier": "1-part, heat or induction cure; viscosity 30,000-60,000 mPa·s @25°C (thixotropic); gray; gap fill up to 3 mm",
+    "thickness": "",
+    "temp": "~200°C",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Filter bonding",
+      "Magnet bonding",
+      "Structural bonding needing toughness/impact resistance"
+    ],
+    "substrates": [
+      "Metals (multi-substrate)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9514",
+    "sourceUrl": "https://next.henkel-adhesives.com/cz/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9514/SAP_IB-56750.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9394",
+    "name": "LOCTITE EA 9394 AERO",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy paste (aerospace)",
+    "carrier": "2-part thixotropic paste; RT or heat cure; long out-time",
+    "thickness": "",
+    "temp": "~177°C",
+    "industries": [
+      "Aerospace",
+      "Aviation",
+      "Urban air mobility"
+    ],
+    "applications": [
+      "Structural Bonding",
+      "Metal and honeycomb bonding and repair",
+      "Potting"
+    ],
+    "substrates": [
+      "Metals",
+      "Honeycomb/composites"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9394 AERO",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9394-aero/SAP_IB-69644.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9396",
+    "name": "LOCTITE EA 9396 AERO",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part low-viscosity epoxy paste (aerospace, RT cure)",
+    "carrier": "2-part, low viscosity (~35 P); pot life ~75-90 min (450 g); RT cure 3-5 days or 30-60 min @66-82°C; green/purple",
+    "thickness": "",
+    "temp": "-55~177°C",
+    "industries": [
+      "Aerospace"
+    ],
+    "applications": [
+      "Aerospace structural bonding"
+    ],
+    "substrates": [
+      "Aluminium",
+      "Metals"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Distributor (GracoRoberts; specs cross-checked with Gluespec) — no Henkel product page found for base EA 9396 AERO",
+    "sourceUrl": "https://www.gracoroberts.com/adhesives/var-loctite-ea-9396-aero-ab-epoxy-paste-adhesive/",
+    "verified": "distributor_hosted_datasheet"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9360",
+    "name": "LOCTITE EA 9360 AERO",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy paste (aerospace)",
+    "carrier": "2-part paste; RT or heat cure; long out-time",
+    "thickness": "",
+    "temp": "~107-121°C",
+    "industries": [
+      "Aerospace",
+      "Aviation",
+      "Urban air mobility"
+    ],
+    "applications": [
+      "Structural Bonding",
+      "Metal and honeycomb bonding and repair"
+    ],
+    "substrates": [
+      "Metals",
+      "Honeycomb"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9360 AERO",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9360-aero/112038IB.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "EA 9309",
+    "name": "LOCTITE EA 9309NA",
+    "category": "Epoxy Adhesive",
+    "adhesive": "2-part epoxy paste (aerospace, toughened/flexible)",
+    "carrier": "2-part medium-viscosity paste; RT or heat-accelerated cure; long out-time; 10% elongation @25°C",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Aerospace",
+      "Aviation"
+    ],
+    "applications": [
+      "Structural Bonding",
+      "Metal and honeycomb bonding and repair",
+      "Multi-substrate bonding"
+    ],
+    "substrates": [
+      "Metals",
+      "Honeycomb"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE EA 9309NA",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-ea-9309na/53583IB.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "243",
+    "name": "LOCTITE 243 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — medium strength, blue",
+    "carrier": "Liquid",
+    "thickness": "",
+    "temp": "-55~180°C",
+    "industries": [
+      "Automotive",
+      "Power (wind)",
+      "Industrial maintenance & repair",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "locking and sealing of threaded fasteners requiring normal disassembly with standard hand tools",
+      "prevents fastener loosening on vibrating assemblies (pumps, gearboxes, motors, vehicles)"
+    ],
+    "substrates": [
+      "all metals incl. passive (stainless steel, aluminum, plated surfaces)",
+      "oil tolerant – cures through most corrosion prevention oils and cutting fluids on as-received fasteners"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 243 + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-243-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-243/BP000000316211.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "248",
+    "name": "LOCTITE 248 Threadlocker Stick",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — medium strength, blue",
+    "carrier": "Semi-solid stick",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial maintenance & repair",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "locking and sealing of threaded fasteners (removable with hand tools)",
+      "prevents fastener loosening on vibrating assemblies, e.g. pumps, gear boxes, presses"
+    ],
+    "substrates": [
+      "all metals incl. passive (stainless steel, plated surfaces) without primer",
+      "oily surfaces – cures through most corrosion prevention oils and cutting fluids on as-received fasteners"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 248 + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-248-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-248/BP000000153639.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "262",
+    "name": "LOCTITE 262 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — medium to high strength, red",
+    "carrier": "Liquid (thixotropic), 최대 M25",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Automotive (powertrain, chassis)",
+      "Industrial manufacturing (electric motors)"
+    ],
+    "applications": [
+      "permanent locking and sealing of threaded fasteners",
+      "large bolts and studs (up to M25)",
+      "where adhesive migration must be prevented"
+    ],
+    "substrates": [
+      "all metal fasteners (brass, steel, stainless steel)",
+      "passive/inactive metals with activator (7471/7649)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel TDS LOCTITE 262 (Feb 2022) + Henkel product page",
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-262-en_GL.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "263",
+    "name": "LOCTITE 263 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, red",
+    "carrier": "Liquid",
+    "thickness": "",
+    "temp": "-55~180°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial maintenance & repair (oil & gas, power generation)",
+      "Industrial manufacturing (motors, fluid power, appliances, remanufacturing)"
+    ],
+    "applications": [
+      "permanent locking and sealing of threaded fasteners (removable with heat)",
+      "heavy duty applications such as studs into motor housings, nuts onto studs in pump housings"
+    ],
+    "substrates": [
+      "all metals incl. passive (stainless steel, aluminum, plated surfaces) without primer",
+      "oil tolerant – oil-coated as-received fasteners"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 263 + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-263-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-263/BP000000347828.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "270",
+    "name": "LOCTITE 270 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, green",
+    "carrier": "Liquid",
+    "thickness": "",
+    "temp": "-55~180°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "permanent locking and sealing of bolts, nuts and studs against shock and vibration",
+      "studs into motor housings, nuts onto studs in pump housings"
+    ],
+    "substrates": [
+      "all metals incl. passive (stainless steel, aluminium, plated surfaces) without activator/primer",
+      "cures through light coatings of corrosion-prevention oils and cutting fluids"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 270 (India) + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-270-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/in/en/products/industrial-adhesives/central-pdp.html/loctite-270/346906AG.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "271",
+    "name": "LOCTITE 271 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, red",
+    "carrier": "Liquid (low viscosity), 최대 M25",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Industrial manufacturing",
+      "Power tools"
+    ],
+    "applications": [
+      "permanent locking and sealing of threaded fasteners",
+      "large bolts and studs (up to M25)",
+      "seals threads – allows through-hole tapping"
+    ],
+    "substrates": [
+      "brass, steel, stainless steel",
+      "inactive metals with activator (7471/7649)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel TDS LOCTITE 271 (Mar 2012) + Henkel product page",
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-271-en_GL.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "272",
+    "name": "LOCTITE 272 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, red (red-orange)",
+    "carrier": "Liquid (medium viscosity, thixotropic), M25 이상",
+    "thickness": "",
+    "temp": "-54~232°C",
+    "industries": [
+      "Automotive (powertrain, chassis)",
+      "Industrial manufacturing (electric motors)"
+    ],
+    "applications": [
+      "permanent locking and sealing of threaded fasteners",
+      "large bolts and studs (M25 and larger)",
+      "high temperature applications"
+    ],
+    "substrates": [
+      "Steel",
+      "inactive metals with activator (7471/7649)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel TDS LOCTITE 272 (Dec 2013) + Henkel product page",
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-272-en_GL.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "277",
+    "name": "LOCTITE 277 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, red",
+    "carrier": "Liquid (high viscosity), M25 초과 대형 볼트",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Automotive (incl. aftermarket, powertrain/chassis)",
+      "Industrial maintenance & repair (oil & gas, power generation)",
+      "Industrial manufacturing (remanufacturing)"
+    ],
+    "applications": [
+      "threadlocking of large bolts and studs greater than 25 mm (1\")"
+    ],
+    "substrates": [
+      "brass, steel, stainless steel"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 277",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-277/BP000000153485.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "290",
+    "name": "LOCTITE 290 Threadlocker (Wicking Grade)",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — medium to high strength, green",
+    "carrier": "Wicking liquid (low viscosity)",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial maintenance & repair (oil & gas, power generation)",
+      "Industrial manufacturing (electric motors, fluid power, fluid processing, remanufacturing)"
+    ],
+    "applications": [
+      "pre-assembled fasteners (wicking) – no disassembly needed before application",
+      "locking and sealing of threaded fasteners",
+      "porosity sealing"
+    ],
+    "substrates": [
+      "brass, steel, stainless steel",
+      "zinc dichromate (cure-speed data)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 290 + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-290-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-290/BP000000153486.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "222",
+    "name": "LOCTITE 222 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — low strength, purple",
+    "carrier": "Liquid (thixotropic), 6.35mm(1/4\") 미만 소형 체결부",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial maintenance & repair",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "locking and sealing of small fasteners",
+      "adjustment screws, countersunk head screws and set screws"
+    ],
+    "substrates": [
+      "metals incl. passive metals",
+      "low strength metals (e.g. aluminum, brass)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 222",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-222/BP000340.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "242",
+    "name": "LOCTITE 242 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — medium strength, blue",
+    "carrier": "Liquid (thixotropic), 최대 M36",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "locking and sealing of threaded fasteners requiring normal disassembly with standard hand tools"
+    ],
+    "substrates": [
+      "brass, steel, stainless steel",
+      "less active substrates such as plated surfaces"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 242 + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-242-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-242/BP000000150233.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "246",
+    "name": "LOCTITE 246 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — medium strength, blue (opaque)",
+    "carrier": "Liquid",
+    "thickness": "",
+    "temp": "-54~232°C",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "locking and sealing threaded fasteners requiring disassembly with standard hand tools",
+      "high temperature applications; heavily loaded parts e.g. construction machinery and railway transmission fittings"
+    ],
+    "substrates": [
+      "as-received fasteners with light coatings of corrosion prevention oils",
+      "passive metals (stainless, aluminum, plated) with activator if cure is slow"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 246 + Henkel TDS DE (datasheets.tdx.henkel.com/LOCTITE-246-de_DE.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-246/MERGED-000000153620.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "268",
+    "name": "LOCTITE 268 Threadlocker Stick",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, red",
+    "carrier": "Semi-solid stick",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial maintenance & repair",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "locking and sealing bolts, nuts and studs to prevent loosening due to vibration",
+      "vertical and overhead applications"
+    ],
+    "substrates": [
+      "all metals incl. passive (stainless steel, aluminum, plated surfaces) without primer",
+      "cures through most corrosion prevention oils and cutting fluids"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 268 + Henkel TDS DE (datasheets.tdx.henkel.com/LOCTITE-268-de_DE.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-268/BP000352.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "2701",
+    "name": "LOCTITE 2701 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, green",
+    "carrier": "Liquid (low viscosity)",
+    "thickness": "",
+    "temp": "-55~150°C",
+    "industries": [
+      "Industrial maintenance & repair",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "permanent locking and sealing of threaded fasteners",
+      "seals threads – allows through-hole tapping",
+      "where maximum resistance to hot oil is required"
+    ],
+    "substrates": [
+      "inactive substrates, especially chromated surfaces",
+      "brass, steel, stainless steel",
+      "as-received fasteners with light oil coatings; passive metals may need activator SF 7649"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel TDS LOCTITE 2701 (Jun 2004) + Henkel product page",
+    "sourceUrl": "https://datasheets.tdx.henkel.com/LOCTITE-2701-en_GL.pdf",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "2760",
+    "name": "LOCTITE 2760 Threadlocker",
+    "category": "Threadlocker",
+    "adhesive": "Anaerobic methacrylate — high strength, red",
+    "carrier": "Liquid (medium viscosity, thixotropic)",
+    "thickness": "",
+    "temp": "",
+    "industries": [
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "heavy duty applications such as bolts used in transmissions, construction equipment or railroad assemblies",
+      "fast cure without activators"
+    ],
+    "substrates": [],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE 2760 + Henkel TDS (datasheets.tdx.henkel.com/LOCTITE-2760-en_GL.pdf)",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-adhesives/central-pdp.html/loctite-2760/BP000000153629.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "SI 595",
+    "name": "LOCTITE SI 595",
+    "category": "Sealant",
+    "adhesive": "1-part acetoxy RTV silicone",
+    "carrier": "Thixotropic paste; black / clear / white; fixture ~30 min; gap fill up to 6 mm; not paintable",
+    "thickness": "",
+    "temp": "~204°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "General-purpose flexible adhesive/sealant",
+      "Sealing and bonding"
+    ],
+    "substrates": [
+      "Ceramic",
+      "Composite",
+      "Glass",
+      "Aluminium",
+      "Steel",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE SI 595",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-si-595/162662AG.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "SI 598",
+    "name": "LOCTITE SI 598",
+    "category": "Sealant",
+    "adhesive": "1-part oxime RTV silicone (gasket maker)",
+    "carrier": "Thixotropic paste; black; fixture ~30 min",
+    "thickness": "",
+    "temp": "-54~260°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Oil pans, transmission pans",
+      "Valve covers/guides",
+      "Differential covers",
+      "Form-in-place gasketing"
+    ],
+    "substrates": [
+      "Metals (engine/powertrain parts)"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE SI 598",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-si-598/BP000000152851.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "SI 5900",
+    "name": "LOCTITE SI 5900",
+    "category": "Sealant",
+    "adhesive": "1-part RTV silicone flange sealant (moisture cure, alkoxy/oxime)",
+    "carrier": "Heavy-bodied thixotropic; black; tack-free 15 min; gap fill up to 6.35 mm",
+    "thickness": "",
+    "temp": "-55~200°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket",
+      "Industrial manufacturing"
+    ],
+    "applications": [
+      "Form-in-place flange gasketing",
+      "Stamped sheet-metal covers and flexible flanges"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic",
+      "Glass",
+      "Ceramic"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE SI 5900",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-si-5900/superflex5900.html",
+    "verified": "official_source"
+  },
+  {
+    "brand": "LOCTITE",
+    "code": "SI 5920",
+    "name": "LOCTITE SI 5920",
+    "category": "Sealant",
+    "adhesive": "1-part oxime RTV silicone (high temperature)",
+    "carrier": "Thixotropic; copper colour",
+    "thickness": "",
+    "temp": "~350°C",
+    "industries": [
+      "Automotive",
+      "Automotive aftermarket"
+    ],
+    "applications": [
+      "Flexible-flange gasketing",
+      "High-temperature sealing",
+      "Electrical insulation / corrosion-sensitive electrical assemblies"
+    ],
+    "substrates": [
+      "Metal",
+      "Plastic"
+    ],
+    "alternatives": [],
+    "img": "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=900&q=80",
+    "source": "Henkel product page LOCTITE SI 5920",
+    "sourceUrl": "https://next.henkel-adhesives.com/us/en/products/industrial-sealants/central-pdp.html/loctite-si-5920/BP000000152854.html",
+    "verified": "official_source"
+  }
+];
