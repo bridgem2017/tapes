@@ -10,7 +10,7 @@
 </head>
 <body>
 <header class="topbar">
-  <a class="brand" href="#home"><span class="logo">TS</span><span><b>Tape</b> Solution</span></a>
+     <a class="brand" href="#home"><img src="assets/images/logo.png" alt="TAPES" style="height:36px"></a>
   <button class="mobile" id="mobileBtn" aria-label="메뉴 열기">☰</button>
   <nav id="nav">
     <a href="#consult">기술상담</a><a href="#applications">적용사례</a><a href="#finder">제품추천</a><a href="#products">테이프 제품</a><a href="#sample">상담 문의</a><a href="#order">견적·주문</a><a href="#data">기술자료</a>
